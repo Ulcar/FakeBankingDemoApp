@@ -23,9 +23,9 @@ public final class TotalBalanceModel:AgreementModel{
     
     init(accounts:[BankAccountModel]) {
         totalBalance = 0
-        for account in accounts{
-            totalBalance += account.balance
-        }
+//        for account in accounts{
+//            totalBalance += account.balance
+//        }
         identifier = TotalBalanceViewCell.identifier
     }
     
@@ -34,24 +34,31 @@ public final class TotalBalanceModel:AgreementModel{
     }
 }
 
-struct AccountGroup:Decodable {
+public struct AccountGroup:Decodable {
     var accountGroupType: String
     var accounts: [BankAccountModel]
 }
  
-struct BankAccountModel:Decodable, AgreementModel {
-    var identifier: String = BankAccountCell.identifier
+public struct BankAccountModel:Decodable, AgreementModel {
+    public var identifier: String = BankAccountCell.identifier
     var isActive: Bool
-    var balance: Double
-    var age: Int
+    var balance: String
     var accountHolderName: String
     var phone: String
     var accountNumber: String
     
-    init(isActive: Bool, balance: Double, age: Int, accountHolderName: String, phone: String, accountNumber: String) {
+    private enum CodingKeys: String, CodingKey {
+        case isActive
+        case balance
+        case accountHolderName
+        case phone
+        case accountNumber
+    }
+    
+    
+    init(isActive: Bool, balance: String, accountHolderName: String, phone: String, accountNumber: String) {
         self.isActive = isActive
         self.balance = balance
-        self.age = age
         self.accountHolderName = accountHolderName
         self.phone = phone
         self.accountNumber = accountNumber

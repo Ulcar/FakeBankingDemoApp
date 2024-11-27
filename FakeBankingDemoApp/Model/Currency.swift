@@ -17,7 +17,13 @@ public class Currency:Decodable {
         self.type = type
     }
     
+    
     required public init(from decoder: any Decoder) throws {
+        
+        
+       
+        
+        
         fatalError("init(from:) has not been implemented")
     }
     

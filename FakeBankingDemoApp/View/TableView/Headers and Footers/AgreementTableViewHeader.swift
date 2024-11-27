@@ -10,6 +10,14 @@ import UIKit
 class AgreementTableViewHeader: UITableViewHeaderFooterView {
     
     let title = UILabel()
+    
+    var icon:UIImageView = {
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.image = UIImage(systemName: "plus")?.withRenderingMode(.alwaysTemplate)
+        imageView.tintColor = .orange
+        return imageView
+    }()
 
 
       override init(reuseIdentifier: String?) {
@@ -23,24 +31,21 @@ class AgreementTableViewHeader: UITableViewHeaderFooterView {
     
 
       func configureContents() {
+          contentView.translatesAutoresizingMaskIntoConstraints = false
           title.translatesAutoresizingMaskIntoConstraints = false
-
-
           contentView.addSubview(title)
+          contentView.addSubview(icon)
           contentView.backgroundColor = .white
-          
-          title.font = .preferredFont(forTextStyle: .headline)
-          title.textColor = .red
-
-
+          title.font = .systemFont(ofSize: 28, weight: .semibold)
+          title.textColor = .orange
           NSLayoutConstraint.activate([
-          
-              // Center the label vertically, and use it to fill the remaining
-              // space in the header view.
-              title.heightAnchor.constraint(equalToConstant: 60),
-              title.leadingAnchor.constraint(equalTo:
-                                                contentView.layoutMarginsGuide.leadingAnchor),
-              title.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
+            contentView.heightAnchor.constraint(equalTo: title.heightAnchor, multiplier: 1.5),
+            title.leadingAnchor.constraint(equalTo:
+                                            contentView.layoutMarginsGuide.leadingAnchor),
+            title.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
+              title.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            icon.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            
           ])
       }
     

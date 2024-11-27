@@ -12,7 +12,7 @@
      
      private var resource:String = "Agreements"
      
-     public func GetAgreements() -> [AgreementModel] {
+     public func GetAgreements() -> [AccountGroup] {
          return service.GetAgreements()
      }
     

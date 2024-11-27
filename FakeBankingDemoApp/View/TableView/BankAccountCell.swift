@@ -13,12 +13,15 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
     static var identifier: String = "AgreementTableViewCell"
     
     func configure(withModel: any AgreementModel) {
-        configure(withModel: withModel as! BankAccountModel)
+        
+        guard let model = withModel as? BankAccountModel else { return }
+        configure(withModel: model)
     }
     
     func configure(withModel: BankAccountModel) {
         IbanLabel.text = withModel.accountNumber
         accountLabel.text = withModel.accountHolderName
+        balanceLabel.text = withModel.balance
         
     }
     
@@ -46,6 +49,14 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         return label
     }()
     
+    var balanceLabel:UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "$ 123,45"
+        label.font = .systemFont(ofSize: 16, weight: .bold)
+        return label
+    }()
+    
 
 
 
@@ -59,6 +70,7 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         addSubview(bg)
         bg.addSubview(accountLabel)
         bg.addSubview(IbanLabel)
+        bg.addSubview(balanceLabel)
         SetupConstraints()
         
         bg.layer.cornerRadius = 10
@@ -77,13 +89,15 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
                    bg.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -10),
                    bg.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 10),
                    bg.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            bg.heightAnchor.constraint(equalToConstant: 100),
+            bg.heightAnchor.constraint(equalToConstant: 80),
             bg.widthAnchor.constraint(equalToConstant: 400),
             accountLabel.leftAnchor.constraint(equalTo: bg.layoutMarginsGuide.leftAnchor),
-            accountLabel.topAnchor.constraint(equalTo: bg.layoutMarginsGuide.topAnchor, constant: 20),
+            accountLabel.topAnchor.constraint(equalTo: bg.layoutMarginsGuide.topAnchor, constant: 10),
             IbanLabel.leftAnchor.constraint(equalTo: accountLabel.leftAnchor),
-            IbanLabel.topAnchor.constraint(equalTo: accountLabel.bottomAnchor, constant: 20),
-            IbanLabel.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -20)
+            IbanLabel.topAnchor.constraint(equalTo: accountLabel.bottomAnchor, constant: 5),
+            IbanLabel.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -20),
+            balanceLabel.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -20),
+            balanceLabel.centerYAnchor.constraint(equalTo: bg.centerYAnchor)
             
             
             

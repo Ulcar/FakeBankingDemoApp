@@ -11,7 +11,7 @@ class HomeViewController: UIViewController{
     var coordinator: Coordinator?
     var tableView:UITableView = UITableView(frame: .zero, style:.grouped)
     var agreementViewModel:AgreementViewModel = AgreementViewModel()
-    var cachedData:[AgreementModel]?
+    var cachedData:[AccountGroup] = []
     
 
     
@@ -35,6 +35,7 @@ class HomeViewController: UIViewController{
         tableView.showsVerticalScrollIndicator = false
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.sectionHeaderHeight = UITableView.automaticDimension
         tableView.register(TotalBalanceViewCell.self, forCellReuseIdentifier: TotalBalanceViewCell.identifier)
         tableView.register(BankAccountCell.self, forCellReuseIdentifier: BankAccountCell.identifier)
         tableView.register(AgreementTableViewHeader.self,
@@ -53,6 +54,8 @@ class HomeViewController: UIViewController{
         
         SetupConstraints()
         cachedData = agreementViewModel.GetAgreements()
+        
+        
         func SetupConstraints()
         {
             NSLayoutConstraint.activate([
@@ -87,20 +90,22 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
     
   
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return cachedData?.count ?? 0
+        var wtf = cachedData[section]
+        return wtf.accounts.count
     }
     
     public func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return cachedData.count
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // get type from indexpath
         
         // we can force unwrap this because we never enter this function if cachedData doesn't exist
-        let cell = tableView.dequeueReusableCell(withIdentifier: cachedData?[indexPath.row].identifier ?? "", for: indexPath) as! CustomAgreementCell
+        let model = cachedData[indexPath.section].accounts[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: model.identifier, for: indexPath) as! CustomAgreementCell
         
-        cell.configure(withModel: (cachedData?[indexPath.row])!)
+        cell.configure(withModel: model)
         
         
         return cell as UITableViewCell
@@ -110,13 +115,14 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
     public func tableView(_ tableView: UITableView,
             viewForHeaderInSection section: Int) -> UIView? {
 
-        let view = tableView.dequeueReusableHeaderFooterView(withIdentifier:
+        let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier:
                                                                  "sectionHeader") as! AgreementTableViewHeader
-        view.title.text = "Accounts"
-        view.title.textColor = UIColor.orange
+        headerView.title.text = cachedData[section].accountGroupType
+        headerView.title.textColor = UIColor.orange
 
-
-        return view
+        headerView.widthAnchor.constraint(equalToConstant: tableView.frame.width).isActive = true
+        headerView.icon.leftAnchor.constraint(equalTo: headerView.title.rightAnchor, constant: view.frame.width * 0.55).isActive = true
+        return headerView
     }
     
     public func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {

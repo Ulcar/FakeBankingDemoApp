@@ -8,6 +8,19 @@
 import Foundation
 
 public class FakeUserAPIAgreementService:AgreementServiceProtocol{
+    public func GetAgreements() -> [AccountGroup] {
+        
+        var accountGroups:[AccountGroup] = []
+        
+        var accounts:[BankAccountModel] = []
+        for _ in 0..<Int.random(in: 1..<10){
+            let fakeUser = GetMockUser()
+            accounts.append(BankAccountModel(isActive: true, balance: String(Double.random(in: 1..<1000000)), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
+        }
+        accountGroups.append(AccountGroup(accountGroupType: "BankRekening", accounts: accounts))
+        return accountGroups
+    }
+    
     
 
     public func GetAgreements() -> [AgreementModel]{
@@ -15,7 +28,7 @@ public class FakeUserAPIAgreementService:AgreementServiceProtocol{
         var accounts:[BankAccountModel] = []
         for _ in 0..<Int.random(in: 1..<10){
             let fakeUser = GetMockUser()
-            accounts.append(BankAccountModel(isActive: true, balance: Double.random(in: 1..<1000000), age: Int.random(in: 1..<100), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
+            accounts.append(BankAccountModel(isActive: true, balance: String(Double.random(in: 1..<1000000)), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
         }
         var returnValue:[AgreementModel] = accounts
         returnValue.append(TotalBalanceModel(accounts:accounts))
