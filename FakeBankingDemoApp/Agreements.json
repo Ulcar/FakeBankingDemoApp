@@ -1,0 +1,82 @@
+[
+  {
+    "accountGroupType": "Current",
+    "accounts": [
+  {
+    "isActive": true,
+    "balance": "€3,960.64",
+    "age": 30,
+    "accountHolderName": "Dawn Keith",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  },
+  {
+    "isActive": true,
+    "balance": "€1,280.14",
+    "accountHolderName": "Bettie Eaton",
+    "phone": "+1 (861) 460-2317",
+    "accountNumber": "NL67 INGB7462235272"
+  },
+  {
+    "isActive": true,
+    "balance": "€3,960.64",
+    "accountHolderName": "Margie Ayala",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  },
+  {
+    "isActive": false,
+    "balance": "€3,960.64",
+    "accountHolderName": "Baker Townsend",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  },
+  {
+    "isActive": true,
+    "balance": "€3,960.64",
+    "accountHolderName": "Annmarie Atkinson",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  }]
+  },
+  {
+    "accountGroupType": "Savings",
+    "accounts": [
+  {
+    "isActive": true,
+    "balance": "€3,960.64",
+    "age": 30,
+    "accountHolderName": "Dawn Keith",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  },
+  {
+    "isActive": true,
+    "balance": "€1,280.14",
+    "accountHolderName": "Bettie Eaton",
+    "phone": "+1 (861) 460-2317",
+    "accountNumber": "NL67 INGB7462235272"
+  },
+  {
+    "isActive": true,
+    "balance": "€3,960.64",
+    "accountHolderName": "Margie Ayala",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  },
+  {
+    "isActive": false,
+    "balance": "€3,960.64",
+    "accountHolderName": "Baker Townsend",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  },
+  {
+    "isActive": false,
+    "balance": "€3,960.64",
+    "accountHolderName": "Annmarie Atkinson",
+    "phone": "+1 (839) 437-3421",
+    "accountNumber": "NL67 INGB7463535272"
+  }]
+  }
+]

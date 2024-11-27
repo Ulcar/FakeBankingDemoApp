@@ -1,24 +1,24 @@
 //
-//  AgreementTableView.swift
+//  AccountCellWithIcon.swift
 //  DemoAppWasTaken
 //
-//  Created by Schilperoort, L. (Lucas) on 14/11/2024.
+//  Created by Schilperoort, L. (Lucas) on 25/11/2024.
 //
 
 import UIKit
-import SwiftUI
 
 
-class BankAccountCell:UITableViewCell, CustomAgreementCell{
-    static var identifier: String = "AgreementTableViewCell"
+
+class AccountCellWithIcon:UITableViewCell, CustomAgreementCell {
+    static var identifier: String = "AccountCellWithIcon"
     
     func configure(withModel: any AgreementModel) {
         configure(withModel: withModel as! BankAccountModel)
     }
     
     func configure(withModel: BankAccountModel) {
-        IbanLabel.text = withModel.IBAN
-        accountLabel.text = withModel.NameCustomer
+        IbanLabel.text = withModel.accountNumber
+        accountLabel.text = withModel.accountHolderName
         
     }
     
@@ -46,6 +46,14 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         return label
     }()
     
+    var icon:UIImageView = {
+        let imageView = UIImageView()
+        imageView.translatesAutoresizingMaskIntoConstraints = false
+        imageView.image = UIImage(systemName: "plus")
+        return imageView
+    }()
+
+    
 
 
 
@@ -59,6 +67,7 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         addSubview(bg)
         bg.addSubview(accountLabel)
         bg.addSubview(IbanLabel)
+        bg.addSubview(icon)
         SetupConstraints()
         
         bg.layer.cornerRadius = 10
@@ -79,11 +88,14 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
                    bg.bottomAnchor.constraint(equalTo: self.bottomAnchor),
             bg.heightAnchor.constraint(equalToConstant: 100),
             bg.widthAnchor.constraint(equalToConstant: 400),
-            accountLabel.leftAnchor.constraint(equalTo: bg.layoutMarginsGuide.leftAnchor),
-            accountLabel.topAnchor.constraint(equalTo: bg.layoutMarginsGuide.topAnchor, constant: 20),
-            IbanLabel.leftAnchor.constraint(equalTo: accountLabel.leftAnchor),
+            icon.leftAnchor.constraint(equalTo: bg.layoutMarginsGuide.leftAnchor, constant: 20),
+            icon.topAnchor.constraint(equalTo: bg.layoutMarginsGuide.topAnchor, constant: 20),
+            accountLabel.leftAnchor.constraint(equalTo: icon.rightAnchor, constant: 20),
+            accountLabel.topAnchor.constraint(equalTo: icon.topAnchor),
+            IbanLabel.leftAnchor.constraint(equalTo: icon.rightAnchor),
             IbanLabel.topAnchor.constraint(equalTo: accountLabel.bottomAnchor, constant: 20),
-            IbanLabel.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -20)
+            IbanLabel.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -20),
+            
             
             
             
@@ -93,11 +105,9 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
     }
 }
 
+
 #Preview
 {
-    let view = BankAccountCell()
-    //changing backgroundColor for debugging purposes
-    view.backgroundColor = .red
+    let view = AccountCellWithIcon()
     return view
 }
-

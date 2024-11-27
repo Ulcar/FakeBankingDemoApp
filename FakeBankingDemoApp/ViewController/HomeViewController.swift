@@ -52,7 +52,7 @@ class HomeViewController: UIViewController{
         view.addSubview(tableView)
         
         SetupConstraints()
-        cachedData = agreementViewModel.Agreements
+        cachedData = agreementViewModel.GetAgreements()
         func SetupConstraints()
         {
             NSLayoutConstraint.activate([

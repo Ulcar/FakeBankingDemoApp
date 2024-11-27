@@ -7,25 +7,23 @@
 
 import Foundation
 
-public class MockAgreementService:AgreementServiceProtocol{
+public class FakeUserAPIAgreementService:AgreementServiceProtocol{
     
 
     public func GetAgreements() -> [AgreementModel]{
         
-        var returnValue:[AgreementModel] = []
+        var accounts:[BankAccountModel] = []
         for _ in 0..<Int.random(in: 1..<10){
-            var fakeUser = GetMockUser()
-            returnValue.append(BankAccountModel(IBAN: GenerateMockIBAN(), NameCustomer: "\(fakeUser.name.first) \(fakeUser.name.last)", balance: 200.00))
+            let fakeUser = GetMockUser()
+            accounts.append(BankAccountModel(isActive: true, balance: Double.random(in: 1..<1000000), age: Int.random(in: 1..<100), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
         }
-        returnValue.append(TotalBalanceModel(totalBalance: 246.00))
+        var returnValue:[AgreementModel] = accounts
+        returnValue.append(TotalBalanceModel(accounts:accounts))
 
-        
-        
-        
         return returnValue
     }
     
-    
+
     
     private func GenerateMockIBAN() -> String{
 
