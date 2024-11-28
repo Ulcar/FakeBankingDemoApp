@@ -12,7 +12,7 @@ import SwiftUI
 class AgreementTableViewCell:UITableViewCell, CustomAgreementCell{
    static var identifier: String = "AgreementTableViewCell"
     
-    func configure(withModel: any AgreementModel) {
+    func configure(withModel: Any) {
         // nothing to be done yet until we populate with data
     }
     

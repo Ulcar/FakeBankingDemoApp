@@ -8,7 +8,7 @@
 import Foundation
 
 public class FakeUserAPIAgreementService:AgreementServiceProtocol{
-    public func GetAgreements() -> [AccountGroup] {
+    public func GetAgreements()async  -> [AccountGroup] {
         
         var accountGroups:[AccountGroup] = []
         
@@ -54,7 +54,6 @@ public class FakeUserAPIAgreementService:AgreementServiceProtocol{
         
         // Define the URL you want to request
         let apiUrlStr = "https://randomuser.me//api"
-        let sem = DispatchSemaphore.init(value: 0)
         
         
         // Create a URL object from the string
@@ -82,20 +81,15 @@ public class FakeUserAPIAgreementService:AgreementServiceProtocol{
                         let results = jsonResults["results"]
                         let resultsData = try! JSONSerialization.data(withJSONObject: results!)
                         returnValue = try! JSONDecoder().decode([FakeUser].self, from: resultsData)[0]
-                        
-                        
-                       // returnValue = try! JSONDecoder().decode(FakeUser.self, from: )
+
                     }
                     
-                    sem.signal()
                 }
-                
-                
+
             }
             
             dataTask.resume()
             
-            sem.wait()
         }
      
             return returnValue

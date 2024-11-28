@@ -45,6 +45,13 @@ class HomeViewController: UIViewController{
         
     }
     
+    
+    func UpdateTableView()
+    {
+        tableView.reloadData()
+        print("Updating tableview")
+    }
+    
     func setupView() {
 
 
@@ -53,7 +60,10 @@ class HomeViewController: UIViewController{
         view.addSubview(tableView)
         
         SetupConstraints()
-        cachedData = agreementViewModel.GetAgreements()
+        agreementViewModel.FetchAgreements(observer: {self.UpdateTableView()})
+    
+        
+        
         
         
         func SetupConstraints()
@@ -90,19 +100,19 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
     
   
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        var wtf = cachedData[section]
-        return wtf.accounts.count
+        let group = agreementViewModel.Agreements[section]
+        // adding total balance here?
+        return group.accounts.count
     }
     
     public func numberOfSections(in tableView: UITableView) -> Int {
-        return cachedData.count
+        return agreementViewModel.Agreements.count
     }
     
     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // get type from indexpath
-        
-        // we can force unwrap this because we never enter this function if cachedData doesn't exist
-        let model = cachedData[indexPath.section].accounts[indexPath.row]
+
+        let model = agreementViewModel.Agreements[indexPath.section].accounts[indexPath.row]
         let cell = tableView.dequeueReusableCell(withIdentifier: model.identifier, for: indexPath) as! CustomAgreementCell
         
         cell.configure(withModel: model)
@@ -117,7 +127,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate{
 
         let headerView = tableView.dequeueReusableHeaderFooterView(withIdentifier:
                                                                  "sectionHeader") as! AgreementTableViewHeader
-        headerView.title.text = cachedData[section].accountGroupType
+        headerView.title.text = agreementViewModel.Agreements[section].accountGroupType
         headerView.title.textColor = UIColor.orange
 
         headerView.widthAnchor.constraint(equalToConstant: tableView.frame.width).isActive = true

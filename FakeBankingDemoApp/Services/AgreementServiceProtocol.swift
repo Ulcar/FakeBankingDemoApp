@@ -6,5 +6,7 @@
 //
 
 public protocol AgreementServiceProtocol {
-    func GetAgreements() -> [AccountGroup]
+    func GetAgreements() async -> [AccountGroup]
+    
+    
 }

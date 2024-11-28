@@ -8,13 +8,34 @@
  public class AgreementViewModel{
     
      private var service:AgreementServiceProtocol = JSONAgreementService()
-     
-     
-     private var resource:String = "Agreements"
-     
-     public func GetAgreements() -> [AccountGroup] {
-         return service.GetAgreements()
+     private(set) var Agreements: [AccountGroup] {
+         didSet {
+             self.bindViewModelToController()
+         }
      }
+     
+     init() {
+         Agreements = []
+     }
+     
+     var bindViewModelToController : (() -> ()) = {}
+
+     
+     public func FetchAgreements(observer: @escaping (() -> ())) {
+         bindViewModelToController = observer
+         
+         Task { @MainActor in
+                     do {
+                         Agreements = await service.GetAgreements()
+                     } catch {
+                         // .. handle error
+                       }
+        }
+     }
+     
+     
+     
+     
     
     
 }

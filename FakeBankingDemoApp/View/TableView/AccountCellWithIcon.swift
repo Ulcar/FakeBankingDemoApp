@@ -12,8 +12,9 @@ import UIKit
 class AccountCellWithIcon:UITableViewCell, CustomAgreementCell {
     static var identifier: String = "AccountCellWithIcon"
     
-    func configure(withModel: any AgreementModel) {
-        configure(withModel: withModel as! BankAccountModel)
+    func configure(withModel: Any) {
+        guard let model = withModel as? BankAccountModel else { return }
+        configure(withModel: model)
     }
     
     func configure(withModel: BankAccountModel) {

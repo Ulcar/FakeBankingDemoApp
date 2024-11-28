@@ -12,7 +12,7 @@ import SwiftUI
 class BankAccountCell:UITableViewCell, CustomAgreementCell{
     static var identifier: String = "AgreementTableViewCell"
     
-    func configure(withModel: any AgreementModel) {
+    func configure(withModel: Any) {
         
         guard let model = withModel as? BankAccountModel else { return }
         configure(withModel: model)
@@ -22,6 +22,7 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         IbanLabel.text = withModel.accountNumber
         accountLabel.text = withModel.accountHolderName
         balanceLabel.text = withModel.balance
+        selectedBackgroundView = UIView()
         
     }
     
@@ -82,12 +83,40 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         }
     
     
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        if selected {
+            bg.backgroundColor = .systemGray5
+            backgroundColor = .systemGray5
+        }
+        
+        else {
+            bg.backgroundColor = .white
+            backgroundColor = .white
+        }
+        
+    }
+
+    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+        super.setHighlighted(highlighted, animated: animated)
+        if highlighted {
+            bg.backgroundColor = .systemGray5
+            backgroundColor = .systemGray
+        }
+        
+        else {
+            bg.backgroundColor = .white
+            backgroundColor = .white
+        }
+    }
+    
+    
     func SetupConstraints()
     {
         NSLayoutConstraint.activate([
-            bg.topAnchor.constraint(equalTo: self.topAnchor, constant: 20),
-                   bg.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -10),
-                   bg.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 10),
+            bg.topAnchor.constraint(equalTo: self.topAnchor, constant: 0),
+                   bg.rightAnchor.constraint(equalTo: self.rightAnchor, constant: 0),
+                   bg.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 0),
                    bg.bottomAnchor.constraint(equalTo: self.bottomAnchor),
             bg.heightAnchor.constraint(equalToConstant: 80),
             bg.widthAnchor.constraint(equalToConstant: 400),

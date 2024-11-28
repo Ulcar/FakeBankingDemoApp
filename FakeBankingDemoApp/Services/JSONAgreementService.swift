@@ -8,8 +8,9 @@
 import Foundation
 
 public class JSONAgreementService: AgreementServiceProtocol {
-    public func GetAgreements() -> [AccountGroup] {
+    public func GetAgreements() async -> [AccountGroup] {
         let accountGroups:[AccountGroup]? = loadJson(filename: "Agreements")
+        try? await Task.sleep(for: .seconds(3))
         return accountGroups ?? []
         
     }
@@ -31,8 +32,8 @@ public class JSONAgreementService: AgreementServiceProtocol {
     
     
     
-    // modified from https://stackoverflow.com/questions/24410881/reading-in-a-json-file-using-swift
-//    private func loadJson<T>(filename fileName: String) -> T? where T:Decodable{
+//     modified from https://stackoverflow.com/questions/24410881/reading-in-a-json-file-using-swift
+//    private func loadJson<T>(filename fileName: String) -> T where T:Decodable{
 //        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
 //            do {
 //                let data = try Data(contentsOf: url)
