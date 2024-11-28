@@ -11,5 +11,5 @@ import UIKit
 protocol CustomAgreementCell: UITableViewCell {
     
     static var identifier: String { get set}
-    func configure(withModel: AgreementModel)
+    func configure(withModel: Any)
 }

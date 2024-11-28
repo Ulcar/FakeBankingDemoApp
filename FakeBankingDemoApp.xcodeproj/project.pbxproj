@@ -10,10 +10,14 @@
 		840081A82CDA65890063B0CC /* distortion.metal in Sources */ = {isa = PBXBuildFile; fileRef = 840081A72CDA65890063B0CC /* distortion.metal */; };
 		840081B62CDB73100063B0CC /* PincodeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840081B52CDB73090063B0CC /* PincodeCollectionView.swift */; };
 		840081B82CDB82260063B0CC /* PinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840081B72CDB82230063B0CC /* PinCell.swift */; };
+		840B12992CF88F550000D2F7 /* BankAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B12982CF88F510000D2F7 /* BankAccountModel.swift */; };
+		840DED502CF5F490002FE52D /* JSONAgreementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DED4F2CF5F48C002FE52D /* JSONAgreementService.swift */; };
+		840DED522CF5FAC0002FE52D /* Agreements.json in Resources */ = {isa = PBXBuildFile; fileRef = 840DED512CF5FAB9002FE52D /* Agreements.json */; };
+		840DED542CF607A5002FE52D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DED532CF607A1002FE52D /* Currency.swift */; };
 		842D63A02CDA3FFD009581CD /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842D639F2CDA3FFD009581CD /* AnimationHelper.swift */; };
 		8439030D2CCA534A003AC2A3 /* UsernamePasswordLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8439030C2CCA534A003AC2A3 /* UsernamePasswordLoginView.swift */; };
 		844135312CEF62DE00EA90EF /* AgreementViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844135302CEF62DA00EA90EF /* AgreementViewModel.swift */; };
-		844135342CEF638F00EA90EF /* AgreementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844135332CEF638A00EA90EF /* AgreementService.swift */; };
+		844135342CEF638F00EA90EF /* FakeUserAPIAgreementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844135332CEF638A00EA90EF /* FakeUserAPIAgreementService.swift */; };
 		844135362CEF67FD00EA90EF /* AgreementServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844135352CEF67F900EA90EF /* AgreementServiceProtocol.swift */; };
 		846DD01C2CDA20CE008EFCF7 /* Color.metal in Sources */ = {isa = PBXBuildFile; fileRef = 846DD01B2CDA20CE008EFCF7 /* Color.metal */; };
 		846DD01F2CDA23EA008EFCF7 /* MetalTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846DD01E2CDA23EA008EFCF7 /* MetalTransition.swift */; };
@@ -75,10 +79,14 @@
 		840081A72CDA65890063B0CC /* distortion.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = distortion.metal; sourceTree = "<group>"; };
 		840081B52CDB73090063B0CC /* PincodeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeCollectionView.swift; sourceTree = "<group>"; };
 		840081B72CDB82230063B0CC /* PinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCell.swift; sourceTree = "<group>"; };
+		840B12982CF88F510000D2F7 /* BankAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountModel.swift; sourceTree = "<group>"; };
+		840DED4F2CF5F48C002FE52D /* JSONAgreementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONAgreementService.swift; sourceTree = "<group>"; };
+		840DED512CF5FAB9002FE52D /* Agreements.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Agreements.json; sourceTree = "<group>"; };
+		840DED532CF607A1002FE52D /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		842D639F2CDA3FFD009581CD /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
 		8439030C2CCA534A003AC2A3 /* UsernamePasswordLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernamePasswordLoginView.swift; sourceTree = "<group>"; };
 		844135302CEF62DA00EA90EF /* AgreementViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementViewModel.swift; sourceTree = "<group>"; };
-		844135332CEF638A00EA90EF /* AgreementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementService.swift; sourceTree = "<group>"; };
+		844135332CEF638A00EA90EF /* FakeUserAPIAgreementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeUserAPIAgreementService.swift; sourceTree = "<group>"; };
 		844135352CEF67F900EA90EF /* AgreementServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementServiceProtocol.swift; sourceTree = "<group>"; };
 		846DD01B2CDA20CE008EFCF7 /* Color.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Color.metal; sourceTree = "<group>"; };
 		846DD01E2CDA23EA008EFCF7 /* MetalTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalTransition.swift; sourceTree = "<group>"; };
@@ -171,7 +179,9 @@
 		844135322CEF636B00EA90EF /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				844135332CEF638A00EA90EF /* AgreementService.swift */,
+				840DED4F2CF5F48C002FE52D /* JSONAgreementService.swift */,
+				844135332CEF638A00EA90EF /* FakeUserAPIAgreementService.swift */,
+				844135352CEF67F900EA90EF /* AgreementServiceProtocol.swift */,
 				844135382CEF74F900EA90EF /* Protocol */,
 			);
 			path = Services;
@@ -180,6 +190,8 @@
 		844135372CEF749A00EA90EF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				840B12982CF88F510000D2F7 /* BankAccountModel.swift */,
+				840DED532CF607A1002FE52D /* Currency.swift */,
 				84EB2A4E2CEE007300C9E5A1 /* AgreementModel.swift */,
 			);
 			path = Model;
@@ -188,7 +200,6 @@
 		844135382CEF74F900EA90EF /* Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				844135352CEF67F900EA90EF /* AgreementServiceProtocol.swift */,
 			);
 			path = Protocol;
 			sourceTree = "<group>";
@@ -254,7 +265,7 @@
 		84DBAC342CC1143400D3E51B = {
 			isa = PBXGroup;
 			children = (
-				84DBAC3F2CC1143400D3E51B /* DemoAppWasTaken */,
+				84DBAC3F2CC1143400D3E51B /* FakeBankingDemoApp */,
 				84DBAC562CC1143500D3E51B /* DemoAppWasTakenTests */,
 				84DBAC602CC1143500D3E51B /* DemoAppWasTakenUITests */,
 				84DBAC3E2CC1143400D3E51B /* Products */,
@@ -272,9 +283,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		84DBAC3F2CC1143400D3E51B /* DemoAppWasTaken */ = {
+		84DBAC3F2CC1143400D3E51B /* FakeBankingDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				840DED512CF5FAB9002FE52D /* Agreements.json */,
 				844135392CEF8F0300EA90EF /* Experimental */,
 				84DBAC712CC1147000D3E51B /* Coordinator */,
 				84DBAC742CC1147000D3E51B /* View */,
@@ -286,7 +298,7 @@
 				84DBAC492CC1143500D3E51B /* Assets.xcassets */,
 				84DBAC4E2CC1143500D3E51B /* Info.plist */,
 			);
-			path = DemoAppWasTaken;
+			path = FakeBankingDemoApp;
 			sourceTree = "<group>";
 		};
 		84DBAC562CC1143500D3E51B /* DemoAppWasTakenTests */ = {
@@ -469,7 +481,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 84DBAC382CC1143400D3E51B /* Build configuration list for PBXProject "DemoAppWasTaken" */;
+			buildConfigurationList = 84DBAC382CC1143400D3E51B /* Build configuration list for PBXProject "FakeBankingDemoApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -496,6 +508,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840DED522CF5FAC0002FE52D /* Agreements.json in Resources */,
 				84DBAC4A2CC1143500D3E51B /* Assets.xcassets in Resources */,
 				84E1E9AD2CC64F28009F9633 /* testStoryboard.storyboard in Resources */,
 			);
@@ -525,7 +538,7 @@
 				840081A82CDA65890063B0CC /* distortion.metal in Sources */,
 				8439030D2CCA534A003AC2A3 /* UsernamePasswordLoginView.swift in Sources */,
 				8494F4C32CCA83EF00DF21F9 /* TestSwiftView.swift in Sources */,
-				844135342CEF638F00EA90EF /* AgreementService.swift in Sources */,
+				844135342CEF638F00EA90EF /* FakeUserAPIAgreementService.swift in Sources */,
 				846DD01C2CDA20CE008EFCF7 /* Color.metal in Sources */,
 				84DBAC842CC1345F00D3E51B /* LoginViewController.swift in Sources */,
 				84DBAC822CC1342700D3E51B /* ButtonCollectionView.swift in Sources */,
@@ -535,6 +548,7 @@
 				8494F4C62CCA8DD400DF21F9 /* HomeViewController.swift in Sources */,
 				842D63A02CDA3FFD009581CD /* AnimationHelper.swift in Sources */,
 				84DBAC412CC1143400D3E51B /* AppDelegate.swift in Sources */,
+				840B12992CF88F550000D2F7 /* BankAccountModel.swift in Sources */,
 				840081B82CDB82260063B0CC /* PinCell.swift in Sources */,
 				84DBAC782CC1147000D3E51B /* PinLoginView.swift in Sources */,
 				8470A7892CE63B3100DA369F /* CustomAgreementElement.swift in Sources */,
@@ -545,6 +559,8 @@
 				846DD0252CDA3071008EFCF7 /* SwiftTransition.swift in Sources */,
 				840081B62CDB73100063B0CC /* PincodeCollectionView.swift in Sources */,
 				84E1E9AF2CC65E5E009F9633 /* ElementCell.swift in Sources */,
+				840DED542CF607A5002FE52D /* Currency.swift in Sources */,
+				840DED502CF5F490002FE52D /* JSONAgreementService.swift in Sources */,
 				84DBAC7F2CC1164000D3E51B /* Assignment.swift in Sources */,
 				84E1E9A82CC158E5009F9633 /* MetalView.swift in Sources */,
 				84E1E9A62CC1577C009F9633 /* TriangleView.swift in Sources */,
@@ -713,7 +729,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ED83ZJR6DX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoAppWasTaken/Info.plist;
+				INFOPLIST_FILE = FakeBankingDemoApp/info.plist;
 				INFOPLIST_KEY_MetalCaptureEnabled = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -741,7 +757,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ED83ZJR6DX;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DemoAppWasTaken/Info.plist;
+				INFOPLIST_FILE = FakeBankingDemoApp/info.plist;
 				INFOPLIST_KEY_MetalCaptureEnabled = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -839,7 +855,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		84DBAC382CC1143400D3E51B /* Build configuration list for PBXProject "DemoAppWasTaken" */ = {
+		84DBAC382CC1143400D3E51B /* Build configuration list for PBXProject "FakeBankingDemoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				84DBAC652CC1143500D3E51B /* Debug */,

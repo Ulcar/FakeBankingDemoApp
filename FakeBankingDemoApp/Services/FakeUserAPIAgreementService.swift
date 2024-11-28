@@ -7,25 +7,36 @@
 
 import Foundation
 
-public class MockAgreementService:AgreementServiceProtocol{
+public class FakeUserAPIAgreementService:AgreementServiceProtocol{
+    public func GetAgreements()async  -> [AccountGroup] {
+        
+        var accountGroups:[AccountGroup] = []
+        
+        var accounts:[BankAccountModel] = []
+        for _ in 0..<Int.random(in: 1..<10){
+            let fakeUser = GetMockUser()
+            accounts.append(BankAccountModel(isActive: true, balance: String(Double.random(in: 1..<1000000)), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
+        }
+        accountGroups.append(AccountGroup(accountGroupType: "BankRekening", accounts: accounts))
+        return accountGroups
+    }
+    
     
 
     public func GetAgreements() -> [AgreementModel]{
         
-        var returnValue:[AgreementModel] = []
+        var accounts:[BankAccountModel] = []
         for _ in 0..<Int.random(in: 1..<10){
-            var fakeUser = GetMockUser()
-            returnValue.append(BankAccountModel(IBAN: GenerateMockIBAN(), NameCustomer: "\(fakeUser.name.first) \(fakeUser.name.last)", balance: 200.00))
+            let fakeUser = GetMockUser()
+            accounts.append(BankAccountModel(isActive: true, balance: String(Double.random(in: 1..<1000000)), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
         }
-        returnValue.append(TotalBalanceModel(totalBalance: 246.00))
+        var returnValue:[AgreementModel] = accounts
+        returnValue.append(TotalBalanceModel(accounts:accounts))
 
-        
-        
-        
         return returnValue
     }
     
-    
+
     
     private func GenerateMockIBAN() -> String{
 
@@ -43,7 +54,6 @@ public class MockAgreementService:AgreementServiceProtocol{
         
         // Define the URL you want to request
         let apiUrlStr = "https://randomuser.me//api"
-        let sem = DispatchSemaphore.init(value: 0)
         
         
         // Create a URL object from the string
@@ -71,20 +81,15 @@ public class MockAgreementService:AgreementServiceProtocol{
                         let results = jsonResults["results"]
                         let resultsData = try! JSONSerialization.data(withJSONObject: results!)
                         returnValue = try! JSONDecoder().decode([FakeUser].self, from: resultsData)[0]
-                        
-                        
-                       // returnValue = try! JSONDecoder().decode(FakeUser.self, from: )
+
                     }
                     
-                    sem.signal()
                 }
-                
-                
+
             }
             
             dataTask.resume()
             
-            sem.wait()
         }
      
             return returnValue

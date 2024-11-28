@@ -12,7 +12,7 @@ import SwiftUI
 class TotalBalanceViewCell:UITableViewCell, CustomAgreementCell{
     static var identifier: String = "TotalBalanceViewCell"
     
-    func configure(withModel: any AgreementModel) {
+    func configure(withModel: Any) {
         // we know the type of model
         
         guard let model = withModel as? TotalBalanceModel else { return }
@@ -23,6 +23,7 @@ class TotalBalanceViewCell:UITableViewCell, CustomAgreementCell{
     func configure(withModel:TotalBalanceModel){
         
         moneyLabel.text = withModel.totalBalance.formatted()
+        selectionStyle = .none
     }
     
     
