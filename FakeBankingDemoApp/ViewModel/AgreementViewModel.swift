@@ -5,37 +5,36 @@
 //  Created by Schilperoort, L. (Lucas) on 21/11/2024.
 //
 
- public class AgreementViewModel{
-    
-     private var service:AgreementServiceProtocol = JSONAgreementService()
-     private(set) var Agreements: [AccountGroup] {
-         didSet {
-             self.bindViewModelToController()
-         }
-     }
-     
-     init() {
-         Agreements = []
-     }
-     
-     var bindViewModelToController : (() -> ()) = {}
+public class AgreementViewModel {
 
-     
-     public func FetchAgreements(observer: @escaping (() -> ())) {
-         bindViewModelToController = observer
-         
-         Task { @MainActor in
-                     do {
-                         Agreements = await service.GetAgreements()
-                     } catch {
-                         // .. handle error
-                       }
+    private var service: AgreementServiceProtocol = JSONAgreementService()
+    private(set) var agreements: [AccountGroupModel]
+
+    init() {
+        agreements = []
+    }
+
+    var bindViewModelToController: (() -> Void) = {}
+
+    public func FetchAgreements(observer: @escaping (() -> Void)) {
+        bindViewModelToController = observer
+
+        Task { @MainActor in
+            do {
+                agreements = try await service.GetAgreements()
+
+                self.bindViewModelToController()
+            } catch {
+                // could add logic to viewController to handle exception from here?
+                print("error: \(error)")
+
+            }
         }
-     }
-     
-     
-     
-     
-    
-    
+    }
+
+}
+
+public struct ConvertedAccountGroup {
+    public var accountGroup: AccountGroup
+    public var addedModels: [AgreementModel]
 }

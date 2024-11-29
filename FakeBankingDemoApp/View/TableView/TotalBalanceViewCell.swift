@@ -10,9 +10,8 @@ import SwiftUI
 
 
 class TotalBalanceViewCell:UITableViewCell, CustomAgreementCell{
-    static var identifier: String = "TotalBalanceViewCell"
     
-    func configure(withModel: Any) {
+    func configure(withModel: AgreementModel) {
         // we know the type of model
         
         guard let model = withModel as? TotalBalanceModel else { return }

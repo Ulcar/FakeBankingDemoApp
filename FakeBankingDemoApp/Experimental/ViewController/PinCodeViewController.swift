@@ -15,7 +15,7 @@ class PinCodeViewController: UIViewController{
         super.viewDidLoad()
 
 
-        loginView.headerButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+//        loginView.headerButton.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
         view.backgroundColor = .white
         loginView.isUserInteractionEnabled = true
         loginView.frame = CGRect(x:0, y: 0, width:view.frame.width, height:view.frame.height)
@@ -38,10 +38,10 @@ class PinCodeViewController: UIViewController{
 
 
     
-    @objc func buttonTapped(_ sender: UIButton) {
-          print("Button tapped!")
-        coordinator?.notifyCoordinator(event: IntEvent(payload: 3, status: EventStatus.Success, name: "test"))
-      }
+//    @objc func buttonTapped(_ sender: UIButton) {
+//          print("Button tapped!")
+//        coordinator?.notifyCoordinator(event: IntEvent(payload: 3, status: EventStatus.Success, name: "test"))
+//      }
     
     required init(coordinator: Coordinator?) {
         //Why does this not compile without it?

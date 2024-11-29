@@ -8,17 +8,15 @@
 import UIKit
 
 class LoginViewController: UIViewController{
-    var coordinator: Coordinator?
+    var coordinator: MainCoordinator?
     var loginView:UsernamePasswordLoginView = UsernamePasswordLoginView()
     
     var navbar = UITabBarController()
-//
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        view.backgroundColor = .lightGray
-        loginView.HeaderButton.addTarget(self, action: #selector(buttonTapped), for:.touchUpInside)
+        view.backgroundColor = .systemGray6
+        loginView.loginButton.addTarget(self, action: #selector(buttonTapped), for:.touchUpInside)
         view.isUserInteractionEnabled = true
         NSLayoutConstraint.activate([
             loginView.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor),
@@ -26,41 +24,30 @@ class LoginViewController: UIViewController{
             ])
 
     }
-    
-    override func viewDidAppear(_ animated: Bool) {
-        
-    }
-    
-    
-    override func viewWillAppear(_ animated: Bool) {
-        
-    }
-    
-    
     override func loadView() {
         view = loginView
     }
 
     
     @objc func buttonTapped(_ sender: UIButton) {
-        coordinator?.notifyCoordinator(event: IntEvent(payload: 3, status: EventStatus.Success, name: "test"))
-      }
-    
-    required init(coordinator: Coordinator?) {
-        self.coordinator = coordinator
-        super.init(nibName: nil, bundle: nil)
+        if loginView.loginField.text == "ING" && loginView.passwordField.text == "123" {
+            coordinator?.navigateToHomeScreen()
+        }
         
-    }
-    
-    required init?(coder: NSCoder) {
-        super.init(coder: coder)
-    }
-    
-
-
+        else {
+            loginView.loginField.text = ""
+            loginView.passwordField.text = ""
+            loginView.loginField.placeholder = "Invalid Username"
+            loginView.passwordField.placeholder = "Invalid Password"
+            // create extra subview for invaild password label
+        }
+        
+        
+        
+      }
 }
 
 #Preview {
-    let loginViewController = LoginViewController(coordinator: nil)
+    let loginViewController = LoginViewController()
     return loginViewController
 }

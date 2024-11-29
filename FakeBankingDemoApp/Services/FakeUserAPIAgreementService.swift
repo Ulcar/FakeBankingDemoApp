@@ -8,7 +8,7 @@
 import Foundation
 
 public class FakeUserAPIAgreementService:AgreementServiceProtocol{
-    public func GetAgreements()async  -> [AccountGroup] {
+    public func GetAgreements()async throws  -> [AccountGroupModel] {
         
         var accountGroups:[AccountGroup] = []
         
@@ -18,7 +18,23 @@ public class FakeUserAPIAgreementService:AgreementServiceProtocol{
             accounts.append(BankAccountModel(isActive: true, balance: String(Double.random(in: 1..<1000000)), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
         }
         accountGroups.append(AccountGroup(accountGroupType: "BankRekening", accounts: accounts))
-        return accountGroups
+        
+        var accountGroupModels:[AccountGroupModel] = []
+        
+        for accountGroup in accountGroups {
+            
+        }
+        
+        return accountGroupModels
+    }
+    
+    
+    public func AgreementsToJSON() -> String{
+        var Agreements = GetAgreements()
+        
+        // how to go from accountgroup back to Json?
+        
+        return ""
     }
     
     
@@ -31,7 +47,6 @@ public class FakeUserAPIAgreementService:AgreementServiceProtocol{
             accounts.append(BankAccountModel(isActive: true, balance: String(Double.random(in: 1..<1000000)), accountHolderName: fakeUser.name.first, phone: "0650999252", accountNumber:GenerateMockIBAN()))
         }
         var returnValue:[AgreementModel] = accounts
-        returnValue.append(TotalBalanceModel(accounts:accounts))
 
         return returnValue
     }
