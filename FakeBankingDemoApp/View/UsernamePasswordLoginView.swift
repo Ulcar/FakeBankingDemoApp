@@ -11,14 +11,13 @@ import UIKit
 
 public class UsernamePasswordLoginView: UIView
 {
-    var HeaderLabel:UILabel = UILabel()
-    var LoginField:UITextField = UITextField()
-    var CompanyImage:UIImageView = UIImageView()
-    var PasswordField:UITextField = UITextField()
-    var HeaderButton:UIButton = UIButton()
-    
-    
-    private var lionImage:UIImage = UIImage(named: "INGLion")!
+    var headerLabel:UILabel = UILabel()
+    var loginField:UITextField = UITextField()
+    var companyImage:UIImageView = UIImageView()
+    var passwordField:UITextField = UITextField()
+    var loginButton:UIButton = UIButton()
+    var invaildPasswordLabel:UILabel = UILabel()
+    var lionImage:UIImage = UIImage(named: "INGLion")!
     
     
     override init(frame: CGRect) {
@@ -39,117 +38,92 @@ public class UsernamePasswordLoginView: UIView
     func setupView() {
         
 
-        HeaderLabel = UILabel()
-        HeaderLabel.translatesAutoresizingMaskIntoConstraints = false
-        HeaderLabel.text = "Welcome!"
-        HeaderLabel.textAlignment = .center
-        HeaderLabel.numberOfLines = 0
-        HeaderLabel.textColor = .black
-        HeaderLabel.bounds = self.bounds
+        headerLabel = UILabel()
+        headerLabel.translatesAutoresizingMaskIntoConstraints = false
+        headerLabel.text = "Welcome!"
+        headerLabel.textAlignment = .center
+        headerLabel.numberOfLines = 0
+        headerLabel.textColor = .black
         
-        CompanyImage = UIImageView(image:lionImage)
-        CompanyImage.translatesAutoresizingMaskIntoConstraints = false
+        companyImage = UIImageView(image:lionImage)
+        companyImage.translatesAutoresizingMaskIntoConstraints = false
 
+        loginField = UITextField()
+        loginField.translatesAutoresizingMaskIntoConstraints = false
+        loginField.placeholder = "Enter Username"
+        loginField.textAlignment = .left
+        loginField.font = UIFont.systemFont(ofSize: 20)
+        loginField.backgroundColor = .white
+        loginField.isUserInteractionEnabled = false
+        loginField.borderStyle = .roundedRect
+        loginField.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        loginField.layer.borderWidth = 0.5
+        loginField.isUserInteractionEnabled = true
+        
+        passwordField = UITextField()
+        passwordField.translatesAutoresizingMaskIntoConstraints = false
+        passwordField.placeholder = "Enter Password"
+        passwordField.textAlignment = .left
+        passwordField.font = UIFont.systemFont(ofSize: 22)
+        passwordField.isUserInteractionEnabled = false
+        passwordField.backgroundColor = .white
+        passwordField.borderStyle = .roundedRect
+        passwordField.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
+        passwordField.layer.borderWidth = 0.5
+        passwordField.isUserInteractionEnabled = true
+        
+        loginButton = UIButton()
+        loginButton.backgroundColor = .systemBlue
+        loginButton.setTitle("Log in", for:  UIControl.State.normal);
+        loginButton.translatesAutoresizingMaskIntoConstraints = false
+        loginButton.setTitle("Pressed", for: UIControl.State.highlighted)
+        loginButton.addTarget(self, action: #selector(ViewButtonTest), for: .touchUpInside)
+        
+        invaildPasswordLabel.textColor = .red
+        invaildPasswordLabel.isEnabled = false
+        invaildPasswordLabel.text = "Invaild Username or Password"
+        invaildPasswordLabel.textAlignment = .center
 
-        
-        LoginField = UITextField()
-        LoginField.translatesAutoresizingMaskIntoConstraints = false
-        LoginField.placeholder = "Enter Username"
-        LoginField.textAlignment = .left
-        LoginField.font = UIFont.systemFont(ofSize: 20)
-        LoginField.backgroundColor = .white
-        LoginField.isUserInteractionEnabled = false
-        LoginField.borderStyle = .roundedRect
-        LoginField.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-        LoginField.layer.borderWidth = 0.5
-        LoginField.isUserInteractionEnabled = true
+        addSubview(headerLabel);
+        addSubview(loginField)
+        addSubview(passwordField)
+        addSubview(loginButton)
+        addSubview(companyImage)
+        addSubview(invaildPasswordLabel)
 
-
-        PasswordField = UITextField()
-        PasswordField.translatesAutoresizingMaskIntoConstraints = false
-        PasswordField.placeholder = "Enter Password"
-        PasswordField.textAlignment = .left
-        PasswordField.font = UIFont.systemFont(ofSize: 22)
-        PasswordField.isUserInteractionEnabled = false
-        PasswordField.backgroundColor = .white
-        PasswordField.borderStyle = .roundedRect
-        PasswordField.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
-        PasswordField.layer.borderWidth = 0.5
-        PasswordField.isUserInteractionEnabled = true
-
-       
-        
-        
-        
-        HeaderButton = UIButton()
-        HeaderButton.backgroundColor = .systemBlue
-        HeaderButton.setTitle("Log in", for:  UIControl.State.normal);
-        HeaderButton.translatesAutoresizingMaskIntoConstraints = false
-        HeaderButton.setTitle("Pressed", for: UIControl.State.highlighted)
-        HeaderButton.addTarget(self, action: #selector(ViewButtonTest), for: .touchUpInside)
-        
-
-        addSubview(HeaderLabel);
-        addSubview(LoginField)
-        addSubview(PasswordField)
-        addSubview(HeaderButton)
-        addSubview(CompanyImage)
-        
         SetupConstraints()
-            
-
-            // more constraints to be added here!
-   
-        
         
         func SetupConstraints()
         {
             NSLayoutConstraint.activate([
-                HeaderLabel.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
-                HeaderLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
-                HeaderLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
-                HeaderLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
-                CompanyImage.topAnchor.constraint(equalTo: HeaderLabel.bottomAnchor, constant:0),
-                CompanyImage.heightAnchor.constraint(equalToConstant: 250),
-                CompanyImage.widthAnchor.constraint(equalTo: CompanyImage.heightAnchor, multiplier: lionImage.size.width / lionImage.size.height),
-                CompanyImage.centerXAnchor.constraint(equalTo: HeaderLabel.centerXAnchor),
-                LoginField.topAnchor.constraint(equalTo: CompanyImage.bottomAnchor, constant: 20),
-                LoginField.centerXAnchor.constraint(equalTo: HeaderLabel.centerXAnchor),
-                LoginField.widthAnchor.constraint(equalToConstant:300 ),
-                PasswordField.topAnchor.constraint(equalTo: LoginField.bottomAnchor, constant: 10),
-                PasswordField.centerXAnchor.constraint(equalTo: LoginField.centerXAnchor),
-                PasswordField.widthAnchor.constraint(equalTo: LoginField.widthAnchor),
-                PasswordField.heightAnchor.constraint(equalTo: LoginField.heightAnchor),
-                HeaderButton.topAnchor.constraint(equalTo: PasswordField.bottomAnchor, constant: 40),
-                HeaderButton.centerXAnchor.constraint(equalTo: PasswordField.centerXAnchor)
+                headerLabel.topAnchor.constraint(equalTo: self.safeAreaLayoutGuide.topAnchor),
+                headerLabel.centerXAnchor.constraint(equalTo: self.centerXAnchor),
+                headerLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
+                headerLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
+                companyImage.topAnchor.constraint(equalTo: headerLabel.bottomAnchor, constant:0),
+                companyImage.heightAnchor.constraint(equalToConstant: 250),
+                companyImage.widthAnchor.constraint(equalTo: companyImage.heightAnchor, multiplier: lionImage.size.width / lionImage.size.height),
+                companyImage.centerXAnchor.constraint(equalTo: headerLabel.centerXAnchor),
+                loginField.topAnchor.constraint(equalTo: companyImage.bottomAnchor, constant: 20),
+                loginField.centerXAnchor.constraint(equalTo: headerLabel.centerXAnchor),
+                loginField.widthAnchor.constraint(equalToConstant:300 ),
+                passwordField.topAnchor.constraint(equalTo: loginField.bottomAnchor, constant: 10),
+                passwordField.centerXAnchor.constraint(equalTo: loginField.centerXAnchor),
+                passwordField.widthAnchor.constraint(equalTo: loginField.widthAnchor),
+                passwordField.heightAnchor.constraint(equalTo: loginField.heightAnchor),
+                loginButton.topAnchor.constraint(equalTo: passwordField.bottomAnchor, constant: 40),
+                loginButton.centerXAnchor.constraint(equalTo: passwordField.centerXAnchor),
             ])
             
             NSLayoutConstraint.activate(
     [
-
     ])
         }
-        
-    
-        
-        
-        
-        
-     
         }
-    
-  
-    
-    
- 
+
 }
 
-
-
 #Preview {
-    
-    
-
     let loginView = UsernamePasswordLoginView()
     return loginView
 }

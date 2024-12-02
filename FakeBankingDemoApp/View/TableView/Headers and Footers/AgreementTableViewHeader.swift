@@ -18,8 +18,6 @@ class AgreementTableViewHeader: UITableViewHeaderFooterView {
         imageView.tintColor = .orange
         return imageView
     }()
-
-
       override init(reuseIdentifier: String?) {
           super.init(reuseIdentifier: reuseIdentifier)
           configureContents()
@@ -31,7 +29,6 @@ class AgreementTableViewHeader: UITableViewHeaderFooterView {
     
 
       func configureContents() {
-          contentView.translatesAutoresizingMaskIntoConstraints = false
           title.translatesAutoresizingMaskIntoConstraints = false
           contentView.addSubview(title)
           contentView.addSubview(icon)
@@ -48,6 +45,4 @@ class AgreementTableViewHeader: UITableViewHeaderFooterView {
             
           ])
       }
-    
-    
 }

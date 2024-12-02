@@ -11,6 +11,9 @@
 		840081B62CDB73100063B0CC /* PincodeCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840081B52CDB73090063B0CC /* PincodeCollectionView.swift */; };
 		840081B82CDB82260063B0CC /* PinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840081B72CDB82230063B0CC /* PinCell.swift */; };
 		840B12992CF88F550000D2F7 /* BankAccountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B12982CF88F510000D2F7 /* BankAccountModel.swift */; };
+		840B12B32CF8BD1F0000D2F7 /* ModelToCellMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B12B22CF8BD1C0000D2F7 /* ModelToCellMapper.swift */; };
+		840B12B52CF8BE2C0000D2F7 /* TotalBalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840B12B42CF8BE270000D2F7 /* TotalBalanceModel.swift */; };
+		840B12B72CF8C1940000D2F7 /* AccountInfo.json in Resources */ = {isa = PBXBuildFile; fileRef = 840B12B62CF8C18C0000D2F7 /* AccountInfo.json */; };
 		840DED502CF5F490002FE52D /* JSONAgreementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DED4F2CF5F48C002FE52D /* JSONAgreementService.swift */; };
 		840DED522CF5FAC0002FE52D /* Agreements.json in Resources */ = {isa = PBXBuildFile; fileRef = 840DED512CF5FAB9002FE52D /* Agreements.json */; };
 		840DED542CF607A5002FE52D /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840DED532CF607A1002FE52D /* Currency.swift */; };
@@ -80,6 +83,9 @@
 		840081B52CDB73090063B0CC /* PincodeCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeCollectionView.swift; sourceTree = "<group>"; };
 		840081B72CDB82230063B0CC /* PinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCell.swift; sourceTree = "<group>"; };
 		840B12982CF88F510000D2F7 /* BankAccountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccountModel.swift; sourceTree = "<group>"; };
+		840B12B22CF8BD1C0000D2F7 /* ModelToCellMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelToCellMapper.swift; sourceTree = "<group>"; };
+		840B12B42CF8BE270000D2F7 /* TotalBalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalBalanceModel.swift; sourceTree = "<group>"; };
+		840B12B62CF8C18C0000D2F7 /* AccountInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = AccountInfo.json; sourceTree = "<group>"; };
 		840DED4F2CF5F48C002FE52D /* JSONAgreementService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONAgreementService.swift; sourceTree = "<group>"; };
 		840DED512CF5FAB9002FE52D /* Agreements.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Agreements.json; sourceTree = "<group>"; };
 		840DED532CF607A1002FE52D /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
@@ -190,6 +196,8 @@
 		844135372CEF749A00EA90EF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				840B12B42CF8BE270000D2F7 /* TotalBalanceModel.swift */,
+				840B12B22CF8BD1C0000D2F7 /* ModelToCellMapper.swift */,
 				840B12982CF88F510000D2F7 /* BankAccountModel.swift */,
 				840DED532CF607A1002FE52D /* Currency.swift */,
 				84EB2A4E2CEE007300C9E5A1 /* AgreementModel.swift */,
@@ -286,6 +294,7 @@
 		84DBAC3F2CC1143400D3E51B /* FakeBankingDemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				840B12B62CF8C18C0000D2F7 /* AccountInfo.json */,
 				840DED512CF5FAB9002FE52D /* Agreements.json */,
 				844135392CEF8F0300EA90EF /* Experimental */,
 				84DBAC712CC1147000D3E51B /* Coordinator */,
@@ -509,6 +518,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				840DED522CF5FAC0002FE52D /* Agreements.json in Resources */,
+				840B12B72CF8C1940000D2F7 /* AccountInfo.json in Resources */,
 				84DBAC4A2CC1143500D3E51B /* Assets.xcassets in Resources */,
 				84E1E9AD2CC64F28009F9633 /* testStoryboard.storyboard in Resources */,
 			);
@@ -548,6 +558,8 @@
 				8494F4C62CCA8DD400DF21F9 /* HomeViewController.swift in Sources */,
 				842D63A02CDA3FFD009581CD /* AnimationHelper.swift in Sources */,
 				84DBAC412CC1143400D3E51B /* AppDelegate.swift in Sources */,
+				840B12B32CF8BD1F0000D2F7 /* ModelToCellMapper.swift in Sources */,
+				840B12B52CF8BE2C0000D2F7 /* TotalBalanceModel.swift in Sources */,
 				840B12992CF88F550000D2F7 /* BankAccountModel.swift in Sources */,
 				840081B82CDB82260063B0CC /* PinCell.swift in Sources */,
 				84DBAC782CC1147000D3E51B /* PinLoginView.swift in Sources */,

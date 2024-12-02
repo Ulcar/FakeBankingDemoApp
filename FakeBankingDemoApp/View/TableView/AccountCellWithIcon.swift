@@ -1,18 +1,18 @@
 //
-//  AccountCellWithIcon.swift
+//  AgreementTableView.swift
 //  DemoAppWasTaken
 //
-//  Created by Schilperoort, L. (Lucas) on 25/11/2024.
+//  Created by Schilperoort, L. (Lucas) on 14/11/2024.
 //
 
 import UIKit
+import SwiftUI
 
 
-
-class AccountCellWithIcon:UITableViewCell, CustomAgreementCell {
-    static var identifier: String = "AccountCellWithIcon"
+class AccountCellWithIcon:UITableViewCell, CustomAgreementCell{
     
-    func configure(withModel: Any) {
+    func configure(withModel: AgreementModel) {
+        
         guard let model = withModel as? BankAccountModel else { return }
         configure(withModel: model)
     }
@@ -20,6 +20,9 @@ class AccountCellWithIcon:UITableViewCell, CustomAgreementCell {
     func configure(withModel: BankAccountModel) {
         IbanLabel.text = withModel.accountNumber
         accountLabel.text = withModel.accountHolderName
+        balanceLabel.text = withModel.balance
+        IconImage.image = UIImage(systemName: withModel.iconToLoad ?? "exclamationmark.icloud.fill")
+        selectedBackgroundView = UIView()
         
     }
     
@@ -47,28 +50,29 @@ class AccountCellWithIcon:UITableViewCell, CustomAgreementCell {
         return label
     }()
     
-    var icon:UIImageView = {
-        let imageView = UIImageView()
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        imageView.image = UIImage(systemName: "plus")
-        return imageView
+    var balanceLabel:UILabel = {
+        let label = UILabel()
+        label.translatesAutoresizingMaskIntoConstraints = false
+        label.text = "$ 123,45"
+        label.font = .systemFont(ofSize: 16, weight: .bold)
+        return label
+    }()
+    
+    var IconImage:UIImageView = {
+        let image = UIImageView()
+        image.translatesAutoresizingMaskIntoConstraints = false
+        image.image = UIImage(systemName: "macbook")
+        image.tintColor = .orange
+        return image
     }()
 
-    
-
-
-
-    
-    
-
-    
-    
     override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
             super.init(style: style, reuseIdentifier: reuseIdentifier)
         addSubview(bg)
         bg.addSubview(accountLabel)
         bg.addSubview(IbanLabel)
-        bg.addSubview(icon)
+        bg.addSubview(balanceLabel)
+        bg.addSubview(IconImage)
         SetupConstraints()
         
         bg.layer.cornerRadius = 10
@@ -80,35 +84,61 @@ class AccountCellWithIcon:UITableViewCell, CustomAgreementCell {
         }
     
     
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+        if selected {
+            bg.backgroundColor = .systemGray5
+            backgroundColor = .systemGray5
+        }
+        
+        else {
+            bg.backgroundColor = .white
+            backgroundColor = .white
+        }
+        
+    }
+
+    override func setHighlighted(_ highlighted: Bool, animated: Bool) {
+        super.setHighlighted(highlighted, animated: animated)
+        if highlighted {
+            bg.backgroundColor = .systemGray5
+            backgroundColor = .systemGray
+        }
+        
+        else {
+            bg.backgroundColor = .white
+            backgroundColor = .white
+        }
+    }
+    
+    
     func SetupConstraints()
     {
         NSLayoutConstraint.activate([
-            bg.topAnchor.constraint(equalTo: self.topAnchor, constant: 20),
-                   bg.rightAnchor.constraint(equalTo: self.rightAnchor, constant: -10),
-                   bg.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 10),
-                   bg.bottomAnchor.constraint(equalTo: self.bottomAnchor),
-            bg.heightAnchor.constraint(equalToConstant: 100),
-            bg.widthAnchor.constraint(equalToConstant: 400),
-            icon.leftAnchor.constraint(equalTo: bg.layoutMarginsGuide.leftAnchor, constant: 20),
-            icon.topAnchor.constraint(equalTo: bg.layoutMarginsGuide.topAnchor, constant: 20),
-            accountLabel.leftAnchor.constraint(equalTo: icon.rightAnchor, constant: 20),
-            accountLabel.topAnchor.constraint(equalTo: icon.topAnchor),
-            IbanLabel.leftAnchor.constraint(equalTo: icon.rightAnchor),
-            IbanLabel.topAnchor.constraint(equalTo: accountLabel.bottomAnchor, constant: 20),
+            bg.topAnchor.constraint(equalTo: self.topAnchor, constant: 0),
+            bg.rightAnchor.constraint(equalTo: self.rightAnchor, constant: 0),
+            bg.leftAnchor.constraint(equalTo: self.leftAnchor, constant: 0),
+            bg.bottomAnchor.constraint(equalTo: self.bottomAnchor),
+            bg.heightAnchor.constraint(equalToConstant: 80),
+            IconImage.leftAnchor.constraint(equalTo: bg.layoutMarginsGuide.leftAnchor, constant: 0),
+            IconImage.centerYAnchor.constraint(equalTo: bg.centerYAnchor),
+            IconImage.widthAnchor.constraint(equalToConstant: 30),
+            accountLabel.leftAnchor.constraint(equalTo: IconImage.rightAnchor, constant: 10),
+            accountLabel.topAnchor.constraint(equalTo: bg.layoutMarginsGuide.topAnchor, constant: 10),
+            IbanLabel.leftAnchor.constraint(equalTo: accountLabel.leftAnchor),
+            IbanLabel.topAnchor.constraint(equalTo: accountLabel.bottomAnchor, constant: 10),
             IbanLabel.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -20),
-            
-            
-            
-            
-            
-            
+            balanceLabel.rightAnchor.constraint(equalTo: bg.rightAnchor, constant: -20),
+            balanceLabel.centerYAnchor.constraint(equalTo: bg.centerYAnchor)
         ])
     }
 }
 
-
 #Preview
 {
     let view = AccountCellWithIcon()
+    // adding width constraint for preview only, to make it look like it would in tableView
+    view.bg.widthAnchor.constraint(equalToConstant: 400).isActive = true
     return view
 }
+

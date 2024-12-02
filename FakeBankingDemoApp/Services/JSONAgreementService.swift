@@ -8,23 +8,28 @@
 import Foundation
 
 public class JSONAgreementService: AgreementServiceProtocol {
-    public func GetAgreements() async -> [AccountGroup] {
-        let accountGroups:[AccountGroup]? = loadJson(filename: "Agreements")
-        try? await Task.sleep(for: .seconds(3))
-        return accountGroups ?? []
+    public func GetAgreements() async throws -> [AccountGroupModel] {
+        let accountGroups:[AccountGroup]? = try loadJson(filename: "Agreements")
+        var accountGroupModels:[AccountGroupModel]? = []
+        for accountGroup in accountGroups! {
+            
+            var agreementModels: [AgreementModel] = []
+            agreementModels.append(contentsOf: accountGroup.accounts)
+            agreementModels.append(TotalBalanceModel(accounts: accountGroup.accounts))
+            accountGroupModels?.append(AccountGroupModel(accountGroupType: accountGroup.accountGroupType, accounts: agreementModels))
+        }
+        return accountGroupModels ?? []
         
     }
     
     
-    private func loadJson(filename fileName: String) -> [AccountGroup] {
+    private func loadJson(filename fileName: String) throws -> [AccountGroup] {
         if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
             do {
                 let data = try Data(contentsOf: url)
                 let decoder = JSONDecoder()
                 let jsonData = try decoder.decode([AccountGroup].self, from: data)
                 return jsonData
-            } catch {
-                print("error:\(error)")
             }
         }
         return []

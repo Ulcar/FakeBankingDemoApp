@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+// this class could determine how to separate the different tables?
 class AgreementTableViewFooter: UITableViewHeaderFooterView {
     
 }
