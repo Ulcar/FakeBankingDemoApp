@@ -17,7 +17,7 @@ public struct AccountGroupModel {
 
 
 public struct BankAccountModel:Codable, AgreementModel {
-    public var identifier: ModelToCellMapper  {if iconToLoad != nil {return .AccountWithIcon} else {return .Account}}
+    public var identifier: ModelToCellMapper  {return .AccountWithIcon}
     var isActive: Bool
     var iconToLoad:String?
     var balance: String

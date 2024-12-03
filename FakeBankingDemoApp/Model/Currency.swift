@@ -23,7 +23,17 @@ public class Currency: Decodable {
 
     private func parseMoneyValueToString() -> String {
 
-        return type.rawValue + String(format: "%.01f", Value)
+        let formatter = NumberFormatter()
+        formatter.maximumFractionDigits = 2
+        formatter.minimumFractionDigits = 2
+        formatter.groupingSize = 3
+        formatter.decimalSeparator = ","
+        formatter.groupingSeparator = "."
+        formatter.numberStyle = .decimal
+
+        
+        
+        return "EUR " + (formatter.string(from: NSNumber(value: Value)) ?? "")
 
     }
 
