@@ -26,11 +26,8 @@ class TotalBalanceViewCell: UITableViewCell, CustomAgreementCell {
         formatter.decimalSeparator = ","
         formatter.groupingSeparator = "."
         formatter.numberStyle = .decimal
-        moneyLabel.text =
-            String("EUR ")
-            + (formatter.string(from: NSNumber(value: withModel.totalBalance))
-                ?? "invaild input")
-        selectionStyle = .none
+        moneyLabel.attributedText = withModel.totalBalance.attributedValue
+
     }
 
     lazy var bg: UIView = {
@@ -53,7 +50,7 @@ class TotalBalanceViewCell: UITableViewCell, CustomAgreementCell {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
         label.text = "€ 24.531.69"
-        label.font = .systemFont(ofSize: 16, weight: .semibold)
+        label.font = .systemFont(ofSize: 16, weight: .light)
         return label
     }()
 

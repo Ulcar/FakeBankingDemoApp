@@ -41,7 +41,7 @@ class AgreementTableViewHeader: UITableViewHeaderFooterView {
                                             contentView.layoutMarginsGuide.leadingAnchor),
             title.trailingAnchor.constraint(equalTo: contentView.trailingAnchor),
               title.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
-            icon.centerYAnchor.constraint(equalTo: contentView.centerYAnchor),
+            icon.centerYAnchor.constraint(equalTo: contentView.centerYAnchor)
             
           ])
       }

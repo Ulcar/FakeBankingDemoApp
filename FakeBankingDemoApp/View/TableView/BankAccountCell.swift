@@ -23,6 +23,9 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         balanceLabel.text = withModel.balance
         selectedBackgroundView = UIView()
         
+        
+        
+        
     }
     
     lazy var bg:UIView = {

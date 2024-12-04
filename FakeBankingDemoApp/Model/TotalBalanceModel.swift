@@ -9,13 +9,15 @@ public final class TotalBalanceModel:AgreementModel{
     public private(set) var identifier: ModelToCellMapper = .TotalBalance
     
     
-    public var totalBalance:Double
+    public var totalBalance:Currency
     
     init(accounts:[BankAccountModel]) {
-        totalBalance = 0
+        var balance:Double = 0
         for account in accounts{
-            totalBalance += account.convertedCurrency.Value
+            balance += account.convertedCurrency.Value
         }
+        
+        totalBalance = Currency(Value: balance)
     }
     
     required public init(from decoder: any Decoder) throws {

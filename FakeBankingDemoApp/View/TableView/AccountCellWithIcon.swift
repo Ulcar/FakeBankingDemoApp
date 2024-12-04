@@ -22,7 +22,11 @@ class AccountCellWithIcon: UITableViewCell, CustomAgreementCell {
     func configure(withModel: BankAccountModel) {
         IbanLabel.text = withModel.accountNumber
         accountLabel.text = withModel.accountHolderName
-        balanceLabel.text = withModel.convertedCurrency.parsedValue
+        balanceLabel.attributedText = withModel.convertedCurrency.attributedValue
+        
+        
+        
+        
         selectedBackgroundView = UIView()
         guard let icon = withModel.iconToLoad else { return }
         IconImage.image = UIImage(systemName: icon)
@@ -134,7 +138,7 @@ class AccountCellWithIcon: UITableViewCell, CustomAgreementCell {
             IbanLabel.leftAnchor.constraint(equalTo: accountLabel.leftAnchor),
             IbanLabel.topAnchor.constraint(
                 equalTo: accountLabel.bottomAnchor, constant: 10),
-            balanceLabel.leftAnchor.constraint(equalTo: IbanLabel.rightAnchor, constant: 50),
+            balanceLabel.leftAnchor.constraint(equalTo: IbanLabel.rightAnchor, constant: 20),
             balanceLabel.rightAnchor.constraint(greaterThanOrEqualTo: bg.rightAnchor, constant: -20),
             balanceLabel.centerYAnchor.constraint(equalTo: bg.centerYAnchor),
         ])

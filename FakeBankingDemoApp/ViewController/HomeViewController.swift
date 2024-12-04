@@ -142,8 +142,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
             equalToConstant: tableView.frame.width
         ).isActive = true
         headerView.icon.leftAnchor.constraint(
-            equalTo: headerView.title.rightAnchor,
-            constant: view.frame.width * 0.55
+            equalTo: headerView.title.rightAnchor
         ).isActive = true
         return headerView
     }
