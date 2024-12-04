@@ -46,6 +46,7 @@
 		84E1E9AD2CC64F28009F9633 /* testStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E1E9AC2CC64F28009F9633 /* testStoryboard.storyboard */; };
 		84E1E9AF2CC65E5E009F9633 /* ElementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E1E9AE2CC65E5E009F9633 /* ElementCell.swift */; };
 		84EB2A4F2CEE007B00C9E5A1 /* AgreementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB2A4E2CEE007300C9E5A1 /* AgreementModel.swift */; };
+		84EDDBC12CFF115300D3227C /* AgreementDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EDDBC02CFF114D00D3227C /* AgreementDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +124,7 @@
 		84E1E9AC2CC64F28009F9633 /* testStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = testStoryboard.storyboard; sourceTree = "<group>"; };
 		84E1E9AE2CC65E5E009F9633 /* ElementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElementCell.swift; sourceTree = "<group>"; };
 		84EB2A4E2CEE007300C9E5A1 /* AgreementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementModel.swift; sourceTree = "<group>"; };
+		84EDDBC02CFF114D00D3227C /* AgreementDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreementDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -356,6 +358,7 @@
 		84DBAC762CC1147000D3E51B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				84EDDBC02CFF114D00D3227C /* AgreementDetailsViewController.swift */,
 				8494F4C52CCA8DD100DF21F9 /* HomeViewController.swift */,
 				84DBAC832CC1345F00D3E51B /* LoginViewController.swift */,
 			);
@@ -570,6 +573,7 @@
 				844135312CEF62DE00EA90EF /* AgreementViewModel.swift in Sources */,
 				846DD0252CDA3071008EFCF7 /* SwiftTransition.swift in Sources */,
 				840081B62CDB73100063B0CC /* PincodeCollectionView.swift in Sources */,
+				84EDDBC12CFF115300D3227C /* AgreementDetailsViewController.swift in Sources */,
 				84E1E9AF2CC65E5E009F9633 /* ElementCell.swift in Sources */,
 				840DED542CF607A5002FE52D /* Currency.swift in Sources */,
 				840DED502CF5F490002FE52D /* JSONAgreementService.swift in Sources */,

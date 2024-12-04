@@ -13,7 +13,6 @@
     "isActive": true,
     "balance": "€1.280,14",
     "accountHolderName": "Bettie Eaton",
-    "iconToLoad": "banknote",
     "phone": "+1 (861) 460-2317",
     "accountNumber": "NL67 INGB7462235272"
   },
@@ -22,7 +21,6 @@
     "balance": "€3.360,64",
     "accountHolderName": "Margie Ayala",
     "phone": "+1 (839) 437-3421",
-    "iconToLoad": "eurosign.bank.building.fill",
     "accountNumber": "NL67 INGB7463535272"
   },
   {
@@ -48,32 +46,36 @@
     "balance": "€3.960,64",
     "accountHolderName": "Dawn Keith",
     "phone": "+1 (839) 437-3421",
-    "accountNumber": "NL67 INGB7463535272"
+    "accountNumber": "NL67 INGB7463535272",
+    "iconToLoad": "banknote"
   },
   {
     "isActive": true,
     "balance": "€1.280,14",
     "accountHolderName": "Bettie Eaton",
     "phone": "+1 (861) 460-2317",
-    "accountNumber": "NL67 INGB7462235272"
+    "accountNumber": "NL67 INGB7462235272",
+    "iconToLoad": "eurosign.bank.building.fill"
   },
   {
     "isActive": true,
-    "balance": "€3,960.64",
+    "balance": "€3.960,64",
     "accountHolderName": "Margie Ayala",
     "phone": "+1 (839) 437-3421",
+    "iconToLoad": "eurosign.bank.building.fill",
     "accountNumber": "NL67 INGB7463535272"
   },
   {
     "isActive": false,
-    "balance": "€3,960.64",
+    "balance": "€3.960,64",
     "accountHolderName": "Baker Townsend",
     "phone": "+1 (839) 437-3421",
+    "iconToLoad": "eurosign.bank.building.fill",
     "accountNumber": "NL67 INGB7463535272"
   },
   {
     "isActive": false,
-    "balance": "€3,960.64",
+    "balance": "€3.960,64",
     "accountHolderName": "Annmarie Atkinson",
     "phone": "+1 (839) 437-3421",
     "accountNumber": "NL67 INGB7463535272"

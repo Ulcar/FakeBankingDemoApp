@@ -17,7 +17,7 @@ public class UsernamePasswordLoginView: UIView
     var passwordField:UITextField = UITextField()
     var loginButton:UIButton = UIButton()
     var invaildPasswordLabel:UILabel = UILabel()
-    var lionImage:UIImage = UIImage(named: "INGLion")!
+    var lionImage:UIImage = UIImage(named: "Bankieren")!
     
     
     override init(frame: CGRect) {
@@ -71,13 +71,17 @@ public class UsernamePasswordLoginView: UIView
         passwordField.frame = CGRect(x: 0, y: 0, width: 100, height: 100)
         passwordField.layer.borderWidth = 0.5
         passwordField.isUserInteractionEnabled = true
+        passwordField.isSecureTextEntry = true
+        passwordField.enablesReturnKeyAutomatically = true
         
         loginButton = UIButton()
-        loginButton.backgroundColor = .systemBlue
+        loginButton.backgroundColor = .systemGray3
         loginButton.setTitle("Log in", for:  UIControl.State.normal);
         loginButton.translatesAutoresizingMaskIntoConstraints = false
-        loginButton.setTitle("Pressed", for: UIControl.State.highlighted)
+        loginButton.setTitle("Loading", for: UIControl.State.highlighted)
+        loginButton.layer.cornerRadius = 10
         loginButton.addTarget(self, action: #selector(ViewButtonTest), for: .touchUpInside)
+        loginButton.isUserInteractionEnabled = false
         
         invaildPasswordLabel.textColor = .red
         invaildPasswordLabel.isEnabled = false
@@ -101,7 +105,7 @@ public class UsernamePasswordLoginView: UIView
                 headerLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
                 headerLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
                 companyImage.topAnchor.constraint(equalTo: headerLabel.bottomAnchor, constant:0),
-                companyImage.heightAnchor.constraint(equalToConstant: 250),
+                companyImage.heightAnchor.constraint(equalToConstant: 128),
                 companyImage.widthAnchor.constraint(equalTo: companyImage.heightAnchor, multiplier: lionImage.size.width / lionImage.size.height),
                 companyImage.centerXAnchor.constraint(equalTo: headerLabel.centerXAnchor),
                 loginField.topAnchor.constraint(equalTo: companyImage.bottomAnchor, constant: 20),

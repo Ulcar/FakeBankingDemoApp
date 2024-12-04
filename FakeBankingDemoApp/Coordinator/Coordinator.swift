@@ -8,43 +8,47 @@
 import Foundation
 import UIKit
 
-
-class Coordinator
-{
+class Coordinator {
     func start() {}
-    
-//    func notifyCoordinator<T>(event:NotifyEvent<T>)
-//    {
-//        
-//    }
-//    
-//    init(window: UIWindow) {
-//    }
+
+    //    func notifyCoordinator<T>(event:NotifyEvent<T>)
+    //    {
+    //
+    //    }
+    //
+    //    init(window: UIWindow) {
+    //    }
 }
 
-
-class MainCoordinator: Coordinator
-{
+class MainCoordinator: Coordinator {
     var navigationController: UINavigationController
-    var currentController:UIViewController?
+    var currentController: UIViewController?
 
-  
     override init() {
         navigationController = .init()
     }
-   
+
     func start() -> UIViewController {
         let loginController = LoginViewController()
         loginController.coordinator = self
-        navigationController = UINavigationController(rootViewController: loginController)
+        navigationController = UINavigationController(
+            rootViewController: loginController)
         return navigationController
     }
-    
-    func navigateToHomeScreen()
-    {
-        let homeViewController = HomeViewController(agreementViewModel: AgreementViewModel())
+
+    func navigateToHomeScreen() {
+        let homeViewController = HomeViewController(
+            agreementViewModel: AgreementViewModel())
         homeViewController.coordinator = self
-        navigationController.setViewControllers([homeViewController], animated: true)
+        navigationController.setViewControllers(
+            [homeViewController], animated: true)
         navigationController.title = "Overzicht"
+    }
+
+    func navigateToAgreementSettingsScreen(withModel:AgreementModel) {
+        let agreementSettingsViewController = AgreementDetailsViewController()
+        agreementSettingsViewController.coordinator = self
+        navigationController.pushViewController(
+            agreementSettingsViewController, animated: true)
     }
 }

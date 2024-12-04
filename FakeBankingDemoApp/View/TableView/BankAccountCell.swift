@@ -23,6 +23,9 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
         balanceLabel.text = withModel.balance
         selectedBackgroundView = UIView()
         
+        
+        
+        
     }
     
     lazy var bg:UIView = {
@@ -52,7 +55,7 @@ class BankAccountCell:UITableViewCell, CustomAgreementCell{
     var balanceLabel:UILabel = {
         let label = UILabel()
         label.translatesAutoresizingMaskIntoConstraints = false
-        label.text = "$ 123,45"
+        label.text = "€ 123,45"
         label.font = .systemFont(ofSize: 16, weight: .bold)
         return label
     }()

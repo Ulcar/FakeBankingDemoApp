@@ -7,6 +7,5 @@
 
 public protocol AgreementServiceProtocol {
     func GetAgreements() async throws -> [AccountGroupModel]
-    
-    
+
 }
