@@ -59,6 +59,7 @@ class TotalBalanceViewCell: UITableViewCell, CustomAgreementCell {
         addSubview(bg)
         bg.addSubview(totalLabel)
         bg.addSubview(moneyLabel)
+        selectionStyle = .none
         SetupConstraints()
 
     }

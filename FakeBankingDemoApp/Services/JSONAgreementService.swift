@@ -13,7 +13,7 @@ public class JSONAgreementService: AgreementServiceProtocol {
             filename: "Agreements")
         var accountGroupModels: [AccountGroupModel]? = []
         for accountGroup in accountGroups! {
-
+            
             var agreementModels: [AgreementModel] = []
             agreementModels.append(contentsOf: accountGroup.accounts)
             agreementModels.append(
@@ -24,37 +24,51 @@ public class JSONAgreementService: AgreementServiceProtocol {
                     accounts: agreementModels))
         }
         return accountGroupModels ?? []
-
+        
     }
-
-    private func loadJson(filename fileName: String) throws -> [AccountGroup] {
-        if let url = Bundle.main.url(
-            forResource: fileName, withExtension: "json")
-        {
-            do {
-                let data = try Data(contentsOf: url)
-                let decoder = JSONDecoder()
-                let jsonData = try decoder.decode(
-                    [AccountGroup].self, from: data)
-                return jsonData
-            }
-        }
-        return []
-    }
-
-    //     modified from https://stackoverflow.com/questions/24410881/reading-in-a-json-file-using-swift
-    //    private func loadJson<T>(filename fileName: String) -> T where T:Decodable{
-    //        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
+    
+    //    private func loadJson(filename fileName: String) throws -> [AccountGroup] {
+    //        if let url = Bundle.main.url(
+    //            forResource: fileName, withExtension: "json")
+    //        {
     //            do {
     //                let data = try Data(contentsOf: url)
     //                let decoder = JSONDecoder()
-    //                let jsonData = try decoder.decode(T.self, from: data)
+    //                let jsonData = try decoder.decode(
+    //                    [AccountGroup].self, from: data)
     //                return jsonData
-    //            } catch {
-    //                print("error:\(error)")
     //            }
     //        }
-    //        return nil
+    //        return []
     //    }
+    
+    //     modified from https://stackoverflow.com/questions/24410881/reading-in-a-json-file-using-swift
+    private func loadJson<T>(filename fileName: String) throws -> T where T:Decodable{
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
+            do {
+                let data = try Data(contentsOf: url)
+                let decoder = JSONDecoder()
+                let jsonData = try decoder.decode(T.self, from: data)
+                return jsonData
+            }
+        }
+        throw JSONParsingError.invaildInput
+    }
+    
+    private func saveJson(fileName:String, json:String){
+        if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
+            do {
+                
+                
+            }
+            
+        }
+        
+    }
+    
+}
 
+
+enum JSONParsingError: Error {
+    case invaildInput
 }

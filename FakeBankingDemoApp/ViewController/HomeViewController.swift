@@ -97,6 +97,10 @@ class HomeViewController: UIViewController {
 
 extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
 
+    
+    
+    
+    
     public func tableView(
         _ tableView: UITableView, numberOfRowsInSection section: Int
     ) -> Int {
@@ -113,13 +117,8 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         _ tableView: UITableView, cellForRowAt indexPath: IndexPath
     ) -> UITableViewCell {
         // get type from indexpath
-
-        let model = agreementViewModel.agreements[indexPath.section].accounts[
-            indexPath.row]
-        let cell =
-            tableView.dequeueReusableCell(
-                withIdentifier: model.identifier.rawValue, for: indexPath)
-            as! CustomAgreementCell
+        let model = getModelFromIndexPath(indexPath: indexPath)
+        let cell = getCellFromIndexPath(indexPath: indexPath)
         cell.configure(withModel: model)
 
         return cell as UITableViewCell
@@ -151,6 +150,30 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
         _ tableView: UITableView, heightForRowAt indexPath: IndexPath
     ) -> CGFloat {
         return UITableView.automaticDimension
+    }
+
+    public func tableView(
+        _ tableView: UITableView, didSelectRowAt indexPath: IndexPath
+    ) {
+        // notify coordinator to append detail view
+        let model = getModelFromIndexPath(indexPath: indexPath)
+        
+    }
+
+    private func getModelFromIndexPath(indexPath: IndexPath) -> AgreementModel {
+        return agreementViewModel.agreements[indexPath.section].accounts[
+            indexPath.row]
+    }
+
+    private func getCellFromIndexPath(indexPath: IndexPath)
+        -> CustomAgreementCell
+    {
+        let model = getModelFromIndexPath(indexPath: indexPath)
+        let cell =
+            tableView.dequeueReusableCell(
+                withIdentifier: model.identifier.rawValue, for: indexPath)
+            as! CustomAgreementCell
+        return cell
     }
 
 }

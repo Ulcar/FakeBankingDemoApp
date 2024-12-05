@@ -1,0 +1,3940 @@
+[
+    {
+        "transactions": [
+            {
+                "amount": {
+                    "Value": 55221.47,
+                    "type": "€"
+                },
+                "date": 746722429.377756,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 738293494.6488974,
+                "amount": {
+                    "Value": 49528.98,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 1372.87,
+                    "type": "€"
+                },
+                "date": 731953152.2213346,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 85324.81
+                },
+                "description": "Test transaction",
+                "date": 727552290.347251
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 36879.37
+                },
+                "date": 733646655.0489386
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 90553.08
+                },
+                "description": "Test transaction",
+                "date": 742190567.0419421
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 96695.72
+                },
+                "date": 728774279.304876
+            },
+            {
+                "description": "Test transaction",
+                "date": 729677807.7130216,
+                "amount": {
+                    "Value": 18760.79,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 750422944.5871665,
+                "amount": {
+                    "type": "€",
+                    "Value": 7217.93
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 83946.03
+                },
+                "date": 757011910.0924102
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 12232.27
+                },
+                "date": 727836344.1473433
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 11146.5,
+                    "type": "€"
+                },
+                "date": 731508716.9408782
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 71373.84
+                },
+                "date": 734971670.8111602
+            },
+            {
+                "amount": {
+                    "Value": 31137.48,
+                    "type": "€"
+                },
+                "date": 727928257.7318313,
+                "description": "Test transaction"
+            },
+            {
+                "date": 751766368.0981803,
+                "amount": {
+                    "type": "€",
+                    "Value": 31056.21
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 71390.04
+                },
+                "date": 735305381.145184,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 22969.66,
+                    "type": "€"
+                },
+                "date": 734156713.1546111,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 752725507.7491099,
+                "amount": {
+                    "Value": 70156.12,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 741561924.2911595,
+                "amount": {
+                    "Value": 54983.63,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 17059.59,
+                    "type": "€"
+                },
+                "date": 745943533.7033726,
+                "description": "Test transaction"
+            },
+            {
+                "date": 732518511.1540451,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 41723.91,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 19062.06,
+                    "type": "€"
+                },
+                "date": 732338904.6196433,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 53651.75,
+                    "type": "€"
+                },
+                "date": 736441450.3068708
+            },
+            {
+                "amount": {
+                    "Value": 53815.52,
+                    "type": "€"
+                },
+                "date": 756900508.3517814,
+                "description": "Test transaction"
+            },
+            {
+                "date": 744237997.3757727,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 39830.18,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 86647.45,
+                    "type": "€"
+                },
+                "date": 746472585.2016184
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 1918.75
+                },
+                "description": "Test transaction",
+                "date": 738824854.3560306
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 70508.24
+                },
+                "date": 737803059.0688896
+            },
+            {
+                "amount": {
+                    "Value": 91502.85,
+                    "type": "€"
+                },
+                "date": 727753847.0082176,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 742437303.0785708,
+                "amount": {
+                    "Value": 58477.26,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 748063164.9669567,
+                "amount": {
+                    "Value": 20534.82,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 69473.68,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 745801575.4653919
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 50140.09
+                },
+                "description": "Test transaction",
+                "date": 744004741.6403538
+            },
+            {
+                "amount": {
+                    "Value": 26800.95,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 753126752.3838848
+            },
+            {
+                "date": 751334934.3733478,
+                "amount": {
+                    "type": "€",
+                    "Value": 41186.79
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 748589319.3000929,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 37807.37
+                }
+            },
+            {
+                "amount": {
+                    "Value": 65385.84,
+                    "type": "€"
+                },
+                "date": 738169149.0349228,
+                "description": "Test transaction"
+            },
+            {
+                "date": 754087847.3723928,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 46710.15
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 10207.42
+                },
+                "description": "Test transaction",
+                "date": 748776964.4398245
+            },
+            {
+                "amount": {
+                    "Value": 83902.96,
+                    "type": "€"
+                },
+                "date": 750880596.2650356,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 65638.37,
+                    "type": "€"
+                },
+                "date": 731068497.8784823
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 72265.19
+                },
+                "description": "Test transaction",
+                "date": 754945973.1401582
+            },
+            {
+                "date": 756639967.0570506,
+                "amount": {
+                    "type": "€",
+                    "Value": 7239.71
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 743016118.5039445,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 49524.19,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 48410.26,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 731771462.060331
+            },
+            {
+                "description": "Test transaction",
+                "date": 736124205.8238839,
+                "amount": {
+                    "Value": 50397.6,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 33492.51
+                },
+                "description": "Test transaction",
+                "date": 740107816.034047
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 33901.33
+                },
+                "description": "Test transaction",
+                "date": 752684537.5342335
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 27311.24,
+                    "type": "€"
+                },
+                "date": 730068535.596487
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 17473.94
+                },
+                "description": "Test transaction",
+                "date": 754277397.0490535
+            },
+            {
+                "date": 755389934.4839455,
+                "amount": {
+                    "Value": 42697.69,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 728097186.7707372,
+                "amount": {
+                    "Value": 13208.84,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 755553481.8999342,
+                "amount": {
+                    "Value": 28341.82,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 731727454.1805801,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 7870.82
+                }
+            },
+            {
+                "amount": {
+                    "Value": 364.38,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 735819029.3070011
+            },
+            {
+                "date": 734394438.9142972,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 50441.6
+                }
+            },
+            {
+                "date": 736804446.7986327,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 51543.31
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 63426.96
+                },
+                "date": 745151714.7669096
+            },
+            {
+                "description": "Test transaction",
+                "date": 739706534.7640651,
+                "amount": {
+                    "type": "€",
+                    "Value": 87773.87
+                }
+            },
+            {
+                "date": 751284133.0464112,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 25420.01
+                }
+            },
+            {
+                "date": 727939333.6782596,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 53048.76
+                }
+            },
+            {
+                "amount": {
+                    "Value": 35440.12,
+                    "type": "€"
+                },
+                "date": 746366361.3062218,
+                "description": "Test transaction"
+            },
+            {
+                "date": 745478650.75615,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 28175.49,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 63148.17
+                },
+                "date": 726243220.8517281,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 27642.73
+                },
+                "date": 728684850.7742356
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 85757.46
+                },
+                "description": "Test transaction",
+                "date": 753932805.0824422
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 11956.45
+                },
+                "date": 754746444.4332438,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 48918.83,
+                    "type": "€"
+                },
+                "date": 748672701.090602
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 29516.83
+                },
+                "date": 739158903.6731639
+            },
+            {
+                "description": "Test transaction",
+                "date": 754345390.9357202,
+                "amount": {
+                    "type": "€",
+                    "Value": 48097.73
+                }
+            },
+            {
+                "date": 731276369.3472028,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 72315.66
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 746688024.0628587,
+                "amount": {
+                    "Value": 41704.97,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 96687.04
+                },
+                "date": 726159141.7430065
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 64198.15
+                },
+                "date": 728727725.6288832,
+                "description": "Test transaction"
+            },
+            {
+                "date": 743602055.002183,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 4551.67,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 727709486.5315228,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 71782.61
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 61461.28
+                },
+                "date": 726496540.6716099,
+                "description": "Test transaction"
+            },
+            {
+                "date": 741911786.0506375,
+                "amount": {
+                    "type": "€",
+                    "Value": 40189.68
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 33133.81
+                },
+                "date": 744513600.7756761,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 39568.16
+                },
+                "date": 740028131.1708108
+            },
+            {
+                "date": 729816836.8932824,
+                "amount": {
+                    "type": "€",
+                    "Value": 86348.95
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 751552915.2459266,
+                "amount": {
+                    "Value": 29107.6,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 42230.07
+                },
+                "description": "Test transaction",
+                "date": 730004026.1258044
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 91209.36
+                },
+                "date": 731518300.8754369,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 725814117.570224,
+                "amount": {
+                    "Value": 23420.42,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 61405.33,
+                    "type": "€"
+                },
+                "date": 743746065.3151778,
+                "description": "Test transaction"
+            },
+            {
+                "date": 728084446.6781496,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 61427.46,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 736073292.6763343,
+                "amount": {
+                    "Value": 49817.34,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 28313.27,
+                    "type": "€"
+                },
+                "date": 729233178.0413915,
+                "description": "Test transaction"
+            },
+            {
+                "date": 731940950.2966568,
+                "amount": {
+                    "type": "€",
+                    "Value": 45693.55
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 737818103.2552595,
+                "amount": {
+                    "Value": 12039.12,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 48376.77,
+                    "type": "€"
+                },
+                "date": 746895507.6919023,
+                "description": "Test transaction"
+            },
+            {
+                "date": 732338312.953774,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 68917.06
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 73268.46,
+                    "type": "€"
+                },
+                "date": 750071482.18666
+            },
+            {
+                "date": 736120440.881354,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 93435.26
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 6229.49
+                },
+                "date": 754510304.114144,
+                "description": "Test transaction"
+            }
+        ],
+        "forIBAN": "NL15 INGB8985562061"
+    },
+    {
+        "forIBAN": "NL76 INGB8584700412",
+        "transactions": [
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 83361.72
+                },
+                "description": "Test transaction",
+                "date": 751457832.2216957
+            },
+            {
+                "date": 734069193.4124621,
+                "amount": {
+                    "Value": 83275.31,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 1671.81
+                },
+                "date": 755766733.9638407
+            },
+            {
+                "date": 742931811.134995,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 57096.56
+                }
+            },
+            {
+                "date": 728985844.5694722,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 6115.33,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 55538.99,
+                    "type": "€"
+                },
+                "date": 747903146.6439489
+            },
+            {
+                "date": 736742978.7623758,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 73568.39,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 726159556.2824659,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 16634.84,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 86348.52
+                },
+                "date": 747810138.9547907,
+                "description": "Test transaction"
+            }
+        ]
+    },
+    {
+        "forIBAN": "NL68 INGB9678815451",
+        "transactions": [
+            {
+                "description": "Test transaction",
+                "date": 754639137.882818,
+                "amount": {
+                    "type": "€",
+                    "Value": 87497.01
+                }
+            },
+            {
+                "amount": {
+                    "Value": 93437.97,
+                    "type": "€"
+                },
+                "date": 731699382.7594727,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 730524235.8274455,
+                "amount": {
+                    "type": "€",
+                    "Value": 39857.54
+                }
+            },
+            {
+                "date": 728927722.5013615,
+                "amount": {
+                    "Value": 8078.31,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 47765.72
+                },
+                "date": 735400479.9510996,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 50789.11,
+                    "type": "€"
+                },
+                "date": 735159429.1515411
+            },
+            {
+                "description": "Test transaction",
+                "date": 729142162.8947793,
+                "amount": {
+                    "type": "€",
+                    "Value": 13252.52
+                }
+            },
+            {
+                "date": 752683773.1318038,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 87125.06
+                }
+            },
+            {
+                "date": 747518000.095803,
+                "amount": {
+                    "type": "€",
+                    "Value": 15890.73
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 20895.96,
+                    "type": "€"
+                },
+                "date": 732441850.8926814
+            },
+            {
+                "description": "Test transaction",
+                "date": 745213072.2164733,
+                "amount": {
+                    "Value": 59.93,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 54616
+                },
+                "description": "Test transaction",
+                "date": 736749380.7974058
+            },
+            {
+                "date": 726061744.1630335,
+                "amount": {
+                    "type": "€",
+                    "Value": 36820.26
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 92204.35,
+                    "type": "€"
+                },
+                "date": 748346148.4073207,
+                "description": "Test transaction"
+            },
+            {
+                "date": 753912151.033921,
+                "amount": {
+                    "Value": 29395.62,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 74089.66
+                },
+                "date": 727816007.4475081,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 87017.74,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 756375640.7820575
+            },
+            {
+                "date": 751137312.7986227,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 6941.36
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 64185.88
+                },
+                "date": 749095335.6642566
+            },
+            {
+                "date": 755803517.59967,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 62595.8
+                }
+            },
+            {
+                "date": 732965255.8322157,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 37326.37,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 68723.34,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 727333884.9674524
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 42068.88
+                },
+                "date": 730990262.9168426,
+                "description": "Test transaction"
+            },
+            {
+                "date": 751733718.3811101,
+                "amount": {
+                    "type": "€",
+                    "Value": 82327.67
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 742400199.3745439,
+                "amount": {
+                    "Value": 3869.52,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 89464.59,
+                    "type": "€"
+                },
+                "date": 752760137.5920521
+            },
+            {
+                "amount": {
+                    "Value": 2506.25,
+                    "type": "€"
+                },
+                "date": 751792904.0906605,
+                "description": "Test transaction"
+            },
+            {
+                "date": 734348890.3610008,
+                "amount": {
+                    "Value": 12051.41,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 747540673.7301271,
+                "amount": {
+                    "Value": 74970.14,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 732982730.5931678,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 14654.06,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 88297.7,
+                    "type": "€"
+                },
+                "date": 750393237.7649754,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 22107.84,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 745571831.0100317
+            },
+            {
+                "description": "Test transaction",
+                "date": 740339942.3734028,
+                "amount": {
+                    "Value": 47391.27,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 743277167.9452281,
+                "amount": {
+                    "Value": 50535.01,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 744433589.3510668,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 72703.47,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 744691149.1907767,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 11704.37
+                }
+            },
+            {
+                "date": 739708726.0270873,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 41735.65,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 737187182.1852067,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 64424.6
+                }
+            },
+            {
+                "date": 756016901.0331188,
+                "amount": {
+                    "type": "€",
+                    "Value": 25136.17
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 737147201.2495115,
+                "amount": {
+                    "Value": 98192.7,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 50996.94
+                },
+                "date": 728649819.9092954
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 38658.95
+                },
+                "date": 733717331.0477861
+            },
+            {
+                "date": 743670921.8414019,
+                "amount": {
+                    "type": "€",
+                    "Value": 20453.7
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 19582.6,
+                    "type": "€"
+                },
+                "date": 746310651.1040703,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 43963.5
+                },
+                "date": 744619995.146978
+            },
+            {
+                "amount": {
+                    "Value": 75456.83,
+                    "type": "€"
+                },
+                "date": 726365333.8562969,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 742065794.2347168,
+                "amount": {
+                    "type": "€",
+                    "Value": 14090.21
+                }
+            },
+            {
+                "date": 751565740.635475,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 92358.85,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 37511.7
+                },
+                "description": "Test transaction",
+                "date": 733823503.6562167
+            },
+            {
+                "date": 733209622.915743,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 71848.93,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 59170.41,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 725935234.644203
+            },
+            {
+                "date": 733337380.0560775,
+                "amount": {
+                    "Value": 91232.2,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 737559861.3524888,
+                "amount": {
+                    "type": "€",
+                    "Value": 19117.72
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 6647.58,
+                    "type": "€"
+                },
+                "date": 755380696.7550778,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 36423.46
+                },
+                "date": 736482187.0194348,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 38323.64,
+                    "type": "€"
+                },
+                "date": 745197092.1598389,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 21905.69,
+                    "type": "€"
+                },
+                "date": 746131216.1857189,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 50615.45,
+                    "type": "€"
+                },
+                "date": 744325869.9790711
+            },
+            {
+                "amount": {
+                    "Value": 99550.47,
+                    "type": "€"
+                },
+                "date": 750209219.3303394,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 31885.99
+                },
+                "date": 745977110.6497852
+            },
+            {
+                "description": "Test transaction",
+                "date": 742246977.5272683,
+                "amount": {
+                    "Value": 31093.96,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 748930622.2188475,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 37640.47
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 62849.58
+                },
+                "description": "Test transaction",
+                "date": 752709778.2534827
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 47461.03,
+                    "type": "€"
+                },
+                "date": 735763673.2839558
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 70630.92
+                },
+                "description": "Test transaction",
+                "date": 746738291.3674854
+            },
+            {
+                "amount": {
+                    "Value": 45944.71,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 742283657.3402497
+            },
+            {
+                "amount": {
+                    "Value": 45111.41,
+                    "type": "€"
+                },
+                "date": 727381925.6504673,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 47216.47,
+                    "type": "€"
+                },
+                "date": 756478595.043515,
+                "description": "Test transaction"
+            },
+            {
+                "date": 743974191.9909077,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 14166.06,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 747653753.7772506,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 45815.88,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 80900.95,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 727343913.9064305
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 26297.14
+                },
+                "date": 734904520.2989917
+            },
+            {
+                "date": 739969284.9685699,
+                "amount": {
+                    "Value": 92997.7,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 733757438.994375,
+                "amount": {
+                    "Value": 94791.6,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 726441135.996877,
+                "amount": {
+                    "type": "€",
+                    "Value": 96462.07
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 726274855.9417272,
+                "amount": {
+                    "type": "€",
+                    "Value": 18295.42
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 71967.28
+                },
+                "date": 757253493.3288367
+            },
+            {
+                "description": "Test transaction",
+                "date": 728694854.3751574,
+                "amount": {
+                    "type": "€",
+                    "Value": 86057.45
+                }
+            },
+            {
+                "date": 727456778.748177,
+                "amount": {
+                    "Value": 24312.7,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 67719.67
+                },
+                "date": 728330453.593868
+            },
+            {
+                "amount": {
+                    "Value": 67801.25,
+                    "type": "€"
+                },
+                "date": 733148277.5537187,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 79737.81
+                },
+                "date": 755171353.0150717
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 78497.38,
+                    "type": "€"
+                },
+                "date": 749077923.1140414
+            },
+            {
+                "date": 743986523.9242715,
+                "amount": {
+                    "Value": 71941.86,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 50895.99,
+                    "type": "€"
+                },
+                "date": 726069438.4146715,
+                "description": "Test transaction"
+            },
+            {
+                "date": 751842021.4641929,
+                "amount": {
+                    "Value": 29399.13,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 45391.92,
+                    "type": "€"
+                },
+                "date": 748067353.5369054
+            },
+            {
+                "date": 749887099.7910872,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 86085.18,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 745483105.5713477,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 68070.39
+                }
+            }
+        ]
+    },
+    {
+        "transactions": [
+            {
+                "date": 742710892.6060582,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 12424.88,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 727372503.2210082,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 10622.84,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 756710302.3925325,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 26797.44
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 93976.05
+                },
+                "date": 746557795.2049941,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 81956.47
+                },
+                "date": 727337454.297511
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 85125.8
+                },
+                "description": "Test transaction",
+                "date": 730841818.4006027
+            },
+            {
+                "amount": {
+                    "Value": 12181.07,
+                    "type": "€"
+                },
+                "date": 728901259.6161335,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 31527.92,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 742995383.4898444
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 73606.72,
+                    "type": "€"
+                },
+                "date": 754323902.4357312
+            },
+            {
+                "date": 737987819.4957485,
+                "amount": {
+                    "type": "€",
+                    "Value": 69771.41
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 756665267.2337135,
+                "amount": {
+                    "Value": 33475.87,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 60502.87,
+                    "type": "€"
+                },
+                "date": 748789995.726066,
+                "description": "Test transaction"
+            }
+        ],
+        "forIBAN": "NL26 INGB2938714947"
+    },
+    {
+        "transactions": [
+            {
+                "amount": {
+                    "Value": 96658.68,
+                    "type": "€"
+                },
+                "date": 746382628.9311638,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 734543120.4930472,
+                "amount": {
+                    "type": "€",
+                    "Value": 22822.21
+                }
+            },
+            {
+                "amount": {
+                    "Value": 5427.22,
+                    "type": "€"
+                },
+                "date": 735409241.4591957,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 748303914.2323442,
+                "amount": {
+                    "Value": 98856.33,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 99963.52
+                },
+                "date": 757191010.8360924,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 69415.08,
+                    "type": "€"
+                },
+                "date": 730404050.0669506,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 13307.52
+                },
+                "date": 748212691.9385413,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 28631
+                },
+                "date": 738961358.6600878,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 54962.07
+                },
+                "date": 731720429.7918901
+            },
+            {
+                "date": 737056176.6660798,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 5449.89,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 729591544.1772332,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 64301.66,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 755648505.6061848,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 24927.24,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 733493755.0625546,
+                "amount": {
+                    "type": "€",
+                    "Value": 82634.73
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 53611.61
+                },
+                "date": 741728408.2719535,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 727967201.5050057,
+                "amount": {
+                    "Value": 67351.97,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 39971.75,
+                    "type": "€"
+                },
+                "date": 754004089.0553943
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 40761.01
+                },
+                "date": 742276833.1545907,
+                "description": "Test transaction"
+            },
+            {
+                "date": 743021531.5118688,
+                "amount": {
+                    "type": "€",
+                    "Value": 24242.2
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 93875.4,
+                    "type": "€"
+                },
+                "date": 740065990.0088581
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 52904.6,
+                    "type": "€"
+                },
+                "date": 730230272.9645473
+            },
+            {
+                "date": 737694122.5862482,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 32185.07
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 732757333.7887293,
+                "amount": {
+                    "type": "€",
+                    "Value": 38664.87
+                }
+            },
+            {
+                "date": 752926485.7925097,
+                "amount": {
+                    "Value": 3032.88,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 99691.72,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 737498065.914673
+            },
+            {
+                "description": "Test transaction",
+                "date": 735567482.9624676,
+                "amount": {
+                    "Value": 33395.04,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 67190.82
+                },
+                "date": 752413243.7413584,
+                "description": "Test transaction"
+            },
+            {
+                "date": 744806585.5215474,
+                "amount": {
+                    "Value": 2999.8,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 750627748.0949782,
+                "amount": {
+                    "Value": 77329.23,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 94786.14
+                },
+                "date": 736071757.8578374
+            },
+            {
+                "description": "Test transaction",
+                "date": 745232523.0358169,
+                "amount": {
+                    "type": "€",
+                    "Value": 7878.56
+                }
+            },
+            {
+                "date": 732675587.43954,
+                "amount": {
+                    "type": "€",
+                    "Value": 29620.38
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 10826.19
+                },
+                "date": 755412724.2036867
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 84446.04
+                },
+                "description": "Test transaction",
+                "date": 746632468.8554024
+            },
+            {
+                "date": 754497405.0707139,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 5949.12,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 51155.06,
+                    "type": "€"
+                },
+                "date": 735996535.0103067,
+                "description": "Test transaction"
+            },
+            {
+                "date": 743643932.0141016,
+                "amount": {
+                    "type": "€",
+                    "Value": 13306.29
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 18628.93
+                },
+                "date": 755716818.119821
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 56639.48,
+                    "type": "€"
+                },
+                "date": 753704773.8532065
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 40987.41
+                },
+                "date": 748622123.6674402,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 34647.01,
+                    "type": "€"
+                },
+                "date": 736944899.8479522
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 73429.99
+                },
+                "description": "Test transaction",
+                "date": 740139074.6639141
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 28298.93,
+                    "type": "€"
+                },
+                "date": 743157683.9167547
+            },
+            {
+                "amount": {
+                    "Value": 85641.5,
+                    "type": "€"
+                },
+                "date": 755763208.9522504,
+                "description": "Test transaction"
+            },
+            {
+                "date": 737531768.0847132,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 89280.27
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 24884.79
+                },
+                "description": "Test transaction",
+                "date": 754266584.826619
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 4400.68
+                },
+                "date": 729083768.7733325,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 72298.28,
+                    "type": "€"
+                },
+                "date": 732189467.6618841,
+                "description": "Test transaction"
+            },
+            {
+                "date": 750580788.9015744,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 25479.33,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 731316730.2599331,
+                "amount": {
+                    "type": "€",
+                    "Value": 77092.35
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 96971.29
+                },
+                "description": "Test transaction",
+                "date": 730027858.2451572
+            },
+            {
+                "date": 741127813.8463556,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 76923.9,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 733723764.092611,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 14754.74
+                }
+            },
+            {
+                "amount": {
+                    "Value": 40691.88,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 748247311.594649
+            },
+            {
+                "date": 735961608.614653,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 30051.98
+                }
+            },
+            {
+                "date": 749932149.5271524,
+                "amount": {
+                    "Value": 7308.68,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            }
+        ],
+        "forIBAN": "NL33 INGB8694892022"
+    },
+    {
+        "transactions": [
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 67504.39
+                },
+                "date": 739020355.989627
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 6795.78
+                },
+                "date": 750242673.9915919
+            },
+            {
+                "description": "Test transaction",
+                "date": 728269778.6021752,
+                "amount": {
+                    "type": "€",
+                    "Value": 558.32
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 752176851.3203787,
+                "amount": {
+                    "Value": 1240.08,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 731939093.4324429,
+                "amount": {
+                    "type": "€",
+                    "Value": 78701.75
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 740047735.7798138,
+                "amount": {
+                    "type": "€",
+                    "Value": 6821.01
+                }
+            },
+            {
+                "date": 744437230.7745725,
+                "amount": {
+                    "Value": 27977.61,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 76167.65
+                },
+                "date": 746243807.5063847
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 23518.85
+                },
+                "date": 740509538.6575462,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 5268.2,
+                    "type": "€"
+                },
+                "date": 755583459.233336,
+                "description": "Test transaction"
+            },
+            {
+                "date": 745450235.0344025,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 51745.61,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 86217.83,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 728187333.0782464
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 79068.11
+                },
+                "description": "Test transaction",
+                "date": 744694685.7863611
+            },
+            {
+                "amount": {
+                    "Value": 1907.45,
+                    "type": "€"
+                },
+                "date": 742138348.9406936,
+                "description": "Test transaction"
+            },
+            {
+                "date": 738586724.5541743,
+                "amount": {
+                    "Value": 65415.19,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 730012354.8111817,
+                "amount": {
+                    "Value": 42658.48,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 740905995.9127023,
+                "amount": {
+                    "Value": 47065.13,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 93183.41
+                },
+                "description": "Test transaction",
+                "date": 748007757.8034327
+            },
+            {
+                "date": 738515719.0963368,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 49305.69
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 8143.97
+                },
+                "date": 746648431.6109841
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 32702.75,
+                    "type": "€"
+                },
+                "date": 753547710.5684325
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 89248.39,
+                    "type": "€"
+                },
+                "date": 753433737.8048882
+            },
+            {
+                "date": 732638975.6670269,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 79699.24
+                }
+            },
+            {
+                "date": 749225577.7030685,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 39855.01
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 38195.23,
+                    "type": "€"
+                },
+                "date": 744770076.7396976
+            },
+            {
+                "description": "Test transaction",
+                "date": 746909484.8748374,
+                "amount": {
+                    "type": "€",
+                    "Value": 22929.24
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 71821.02
+                },
+                "date": 737127576.0620898,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 49048.53,
+                    "type": "€"
+                },
+                "date": 728498210.1274481
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 71904.79
+                },
+                "date": 738021979.7352899,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 80918.94,
+                    "type": "€"
+                },
+                "date": 745427934.07218
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 91969.47
+                },
+                "date": 734789802.1795056,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 35733.9
+                },
+                "date": 735653083.9345582,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 10826.37
+                },
+                "date": 736522210.247753
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 56637.2,
+                    "type": "€"
+                },
+                "date": 755604983.3933423
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 60790.92
+                },
+                "date": 740745757.861671,
+                "description": "Test transaction"
+            },
+            {
+                "date": 733717577.0845234,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 53669.78,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 94977.38,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 734763250.0440948
+            },
+            {
+                "date": 750711292.8813163,
+                "amount": {
+                    "Value": 49521.88,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            }
+        ],
+        "forIBAN": "NL42 INGB5946717057"
+    },
+    {
+        "forIBAN": "NL97 INGB4281366911",
+        "transactions": [
+            {
+                "date": 749425592.0121044,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 54285.89
+                }
+            },
+            {
+                "amount": {
+                    "Value": 47361.86,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 750846757.4544985
+            },
+            {
+                "description": "Test transaction",
+                "date": 732149810.5682483,
+                "amount": {
+                    "type": "€",
+                    "Value": 76840.12
+                }
+            },
+            {
+                "amount": {
+                    "Value": 70313.74,
+                    "type": "€"
+                },
+                "date": 729537988.0627271,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 735284645.2636086,
+                "amount": {
+                    "type": "€",
+                    "Value": 26920.62
+                }
+            },
+            {
+                "date": 744523253.3264022,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 69417.83
+                }
+            },
+            {
+                "amount": {
+                    "Value": 61387.21,
+                    "type": "€"
+                },
+                "date": 728040401.4314092,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 25853.73
+                },
+                "date": 735223657.6204603,
+                "description": "Test transaction"
+            },
+            {
+                "date": 727401785.511876,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 37828.65
+                }
+            },
+            {
+                "amount": {
+                    "Value": 26703.08,
+                    "type": "€"
+                },
+                "date": 749274829.1494526,
+                "description": "Test transaction"
+            }
+        ]
+    },
+    {
+        "transactions": [
+            {
+                "date": 733243922.2376364,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 2413.85,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 736756016.6624207,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 33880.82
+                }
+            },
+            {
+                "date": 754532155.9477485,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 49627.47
+                }
+            },
+            {
+                "amount": {
+                    "Value": 20951.38,
+                    "type": "€"
+                },
+                "date": 739389465.5665779,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 735089196.1513504,
+                "amount": {
+                    "type": "€",
+                    "Value": 33331.18
+                }
+            },
+            {
+                "date": 748082374.6198763,
+                "amount": {
+                    "Value": 29099.89,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 60090.46
+                },
+                "description": "Test transaction",
+                "date": 734257292.8256952
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 11156.59,
+                    "type": "€"
+                },
+                "date": 742442148.9083759
+            },
+            {
+                "amount": {
+                    "Value": 57965.5,
+                    "type": "€"
+                },
+                "date": 743067999.6914177,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 36431.87
+                },
+                "description": "Test transaction",
+                "date": 747144886.6983227
+            },
+            {
+                "amount": {
+                    "Value": 23565.97,
+                    "type": "€"
+                },
+                "date": 749851391.3674052,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 31586.7,
+                    "type": "€"
+                },
+                "date": 728788066.5205762,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 66743.81
+                },
+                "date": 743458954.5605652
+            },
+            {
+                "date": 736458763.651376,
+                "amount": {
+                    "Value": 65261.84,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 28739.59,
+                    "type": "€"
+                },
+                "date": 751208692.4720104
+            },
+            {
+                "amount": {
+                    "Value": 32580.33,
+                    "type": "€"
+                },
+                "date": 741922244.3481612,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 4716.62,
+                    "type": "€"
+                },
+                "date": 746967598.8933107,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 87240.16
+                },
+                "date": 742228807.0695584,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 68147.17,
+                    "type": "€"
+                },
+                "date": 752807624.1859304
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 10737.26
+                },
+                "description": "Test transaction",
+                "date": 745708993.4745213
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 78250.37,
+                    "type": "€"
+                },
+                "date": 743061389.4720759
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 18599.87
+                },
+                "date": 744039497.2391737,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 670.31
+                },
+                "description": "Test transaction",
+                "date": 750317618.5120173
+            },
+            {
+                "date": 732422331.4792391,
+                "amount": {
+                    "Value": 78122.85,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 748195668.992014,
+                "amount": {
+                    "Value": 66287.26,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 31206.31,
+                    "type": "€"
+                },
+                "date": 746055550.4564663,
+                "description": "Test transaction"
+            },
+            {
+                "date": 726665935.0423049,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 86065.12
+                }
+            },
+            {
+                "date": 752280373.7647356,
+                "amount": {
+                    "Value": 575.57,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 754314506.9370941,
+                "amount": {
+                    "Value": 83493.53,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 4113.56,
+                    "type": "€"
+                },
+                "date": 729711032.452668
+            },
+            {
+                "date": 729584753.1233814,
+                "amount": {
+                    "type": "€",
+                    "Value": 90246.23
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 739608761.7711728,
+                "amount": {
+                    "type": "€",
+                    "Value": 28513.39
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 756072553.8582538,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 71357.15
+                }
+            },
+            {
+                "amount": {
+                    "Value": 37216.5,
+                    "type": "€"
+                },
+                "date": 726379388.177602,
+                "description": "Test transaction"
+            },
+            {
+                "date": 732548498.5505264,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 99033.89,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 22353.64,
+                    "type": "€"
+                },
+                "date": 744467074.6325125,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 58943.39,
+                    "type": "€"
+                },
+                "date": 729464808.808576
+            },
+            {
+                "description": "Test transaction",
+                "date": 737181352.2785053,
+                "amount": {
+                    "Value": 6007.02,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 89642.24
+                },
+                "date": 744296197.1809419,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 75499.88,
+                    "type": "€"
+                },
+                "date": 739981955.4629749,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 87.65,
+                    "type": "€"
+                },
+                "date": 753255718.7640274,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 61940.96,
+                    "type": "€"
+                },
+                "date": 734472937.2212666,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 69848.4
+                },
+                "date": 745169917.1605821
+            },
+            {
+                "description": "Test transaction",
+                "date": 737712017.2799804,
+                "amount": {
+                    "type": "€",
+                    "Value": 6545.91
+                }
+            },
+            {
+                "date": 732920146.1748483,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 48943.55
+                }
+            },
+            {
+                "date": 753865221.9224825,
+                "amount": {
+                    "Value": 75092.96,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 732324916.596781,
+                "amount": {
+                    "Value": 30978.46,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 98651.74,
+                    "type": "€"
+                },
+                "date": 754096648.0072323
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 45188.04,
+                    "type": "€"
+                },
+                "date": 737208351.5520666
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 36327.07
+                },
+                "description": "Test transaction",
+                "date": 750484798.8287153
+            },
+            {
+                "description": "Test transaction",
+                "date": 730812201.3047291,
+                "amount": {
+                    "type": "€",
+                    "Value": 51702.88
+                }
+            },
+            {
+                "date": 734327448.8999988,
+                "amount": {
+                    "Value": 80001.2,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 7260.6
+                },
+                "date": 728031558.5001273
+            },
+            {
+                "amount": {
+                    "Value": 60601.09,
+                    "type": "€"
+                },
+                "date": 746705603.7773062,
+                "description": "Test transaction"
+            }
+        ],
+        "forIBAN": "NL67 INGB7463535272"
+    },
+    {
+        "forIBAN": "NL90 INGB9739243436",
+        "transactions": [
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 93024.62,
+                    "type": "€"
+                },
+                "date": 747779066.4163877
+            },
+            {
+                "date": 747576185.687515,
+                "amount": {
+                    "type": "€",
+                    "Value": 57801.51
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 9903.9
+                },
+                "date": 746088051.0035787,
+                "description": "Test transaction"
+            },
+            {
+                "date": 734043394.335732,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 9439.6,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 751633702.495498,
+                "amount": {
+                    "Value": 48030.8,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 748901840.0580677,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 39664.65,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 748836870.0994556,
+                "amount": {
+                    "type": "€",
+                    "Value": 90008.65
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 756217623.6618716,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 18811.05
+                }
+            },
+            {
+                "date": 731094538.6241847,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 50060.45
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 65641.05
+                },
+                "date": 756528604.9810648
+            },
+            {
+                "amount": {
+                    "Value": 22873.85,
+                    "type": "€"
+                },
+                "date": 750434447.2247772,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 74706.42
+                },
+                "date": 735200338.396702,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 19601.56,
+                    "type": "€"
+                },
+                "date": 727252751.7251667
+            },
+            {
+                "date": 736577820.8253814,
+                "amount": {
+                    "type": "€",
+                    "Value": 10072.3
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 741658243.9347645,
+                "amount": {
+                    "Value": 31123,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 741577805.9197086,
+                "amount": {
+                    "Value": 65991.79,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 738535172.4643948,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 39721.3
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 74472.95
+                },
+                "date": 727754794.6009288,
+                "description": "Test transaction"
+            },
+            {
+                "date": 735741998.7112263,
+                "amount": {
+                    "Value": 77409.66,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 51138.14,
+                    "type": "€"
+                },
+                "date": 747563015.0151535,
+                "description": "Test transaction"
+            },
+            {
+                "date": 750415924.9456018,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 39658.22
+                }
+            },
+            {
+                "amount": {
+                    "Value": 26329.98,
+                    "type": "€"
+                },
+                "date": 741168175.2114904,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 741709475.3703098,
+                "amount": {
+                    "type": "€",
+                    "Value": 24511.66
+                }
+            },
+            {
+                "date": 734095925.418839,
+                "amount": {
+                    "Value": 4512.87,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 2051.37,
+                    "type": "€"
+                },
+                "date": 737515503.6966995
+            },
+            {
+                "amount": {
+                    "Value": 22748.59,
+                    "type": "€"
+                },
+                "date": 749850562.0946356,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 19844.99
+                },
+                "date": 748681360.812852
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 63062.68
+                },
+                "date": 739731719.4435543
+            },
+            {
+                "date": 750149486.5757388,
+                "amount": {
+                    "type": "€",
+                    "Value": 11777.49
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 733647869.1093003,
+                "amount": {
+                    "Value": 87156.46,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 19794.21,
+                    "type": "€"
+                },
+                "date": 750739891.6599977
+            }
+        ]
+    },
+    {
+        "forIBAN": "NL81 INGB1971879746",
+        "transactions": [
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 72063.88
+                },
+                "date": 757022488.4611889,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 748215229.0656437,
+                "amount": {
+                    "Value": 29388.05,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 94536.8
+                },
+                "date": 734000420.613669,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 50786.1
+                },
+                "date": 743701576.1752392,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 737595829.8845036,
+                "amount": {
+                    "Value": 36375.55,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 749453830.8235849,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 81764.9,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 27336.04,
+                    "type": "€"
+                },
+                "date": 726727659.8392482,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 96782.59,
+                    "type": "€"
+                },
+                "date": 729868219.7539572,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 44239.91,
+                    "type": "€"
+                },
+                "date": 737218909.4860957
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 51326.98,
+                    "type": "€"
+                },
+                "date": 731416690.5274528
+            },
+            {
+                "date": 750896854.3679682,
+                "amount": {
+                    "type": "€",
+                    "Value": 52449.94
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 93478.01,
+                    "type": "€"
+                },
+                "date": 733628692.2219702,
+                "description": "Test transaction"
+            },
+            {
+                "date": 744901630.0578526,
+                "amount": {
+                    "Value": 28051.02,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 729589744.8778747,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 9573.59,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 8333.62
+                },
+                "date": 749046317.7656149,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 98852.5,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 736143802.1560467
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 64291.18
+                },
+                "date": 731033782.0693221
+            },
+            {
+                "amount": {
+                    "Value": 20654.68,
+                    "type": "€"
+                },
+                "date": 729634338.095115,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 68323.03,
+                    "type": "€"
+                },
+                "date": 728300798.8460891,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 36831.31
+                },
+                "description": "Test transaction",
+                "date": 750303066.7397523
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 20176.49,
+                    "type": "€"
+                },
+                "date": 753665939.78598
+            },
+            {
+                "description": "Test transaction",
+                "date": 736954944.624525,
+                "amount": {
+                    "type": "€",
+                    "Value": 76793.71
+                }
+            },
+            {
+                "date": 745226112.2885953,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 56350.82
+                }
+            },
+            {
+                "date": 747861265.2359416,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 21936.56,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 738709878.558369,
+                "amount": {
+                    "Value": 85842.44,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 53001.07,
+                    "type": "€"
+                },
+                "date": 751907809.8792266,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 11984.93,
+                    "type": "€"
+                },
+                "date": 730976835.5110012,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 18182.81
+                },
+                "date": 740714434.0293541
+            },
+            {
+                "amount": {
+                    "Value": 59303.13,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 750198181.8207059
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 84928.75
+                },
+                "date": 752749613.9924864,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 729037567.4357399,
+                "amount": {
+                    "Value": 24823.35,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 42575.54
+                },
+                "date": 752579627.7239068,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 747962473.2862247,
+                "amount": {
+                    "Value": 73797.58,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 72381.28
+                },
+                "date": 726677511.2633882,
+                "description": "Test transaction"
+            },
+            {
+                "date": 753726462.5922914,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 2341.03,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 727675257.5060393,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 64416.54,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 728066995.9489625,
+                "amount": {
+                    "Value": 58422.94,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 732784342.8378481,
+                "amount": {
+                    "Value": 15947.64,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 743541313.5559388,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 8947.74
+                }
+            },
+            {
+                "date": 728600767.0556207,
+                "amount": {
+                    "Value": 58333.71,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 747310744.0878961,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 10732.16
+                }
+            },
+            {
+                "date": 739001311.2942814,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 51866.83,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 40376.19,
+                    "type": "€"
+                },
+                "date": 745557438.3051001
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 29418.44
+                },
+                "date": 739080346.0081997,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 18606.06
+                },
+                "date": 744531745.7437172
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 78756.51
+                },
+                "date": 744361792.7179748,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 729985868.6951332,
+                "amount": {
+                    "Value": 53267.56,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 29839.97,
+                    "type": "€"
+                },
+                "date": 741870873.1580687,
+                "description": "Test transaction"
+            },
+            {
+                "date": 736805844.9300177,
+                "amount": {
+                    "type": "€",
+                    "Value": 50674.7
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 29908.05,
+                    "type": "€"
+                },
+                "date": 744927811.1717567,
+                "description": "Test transaction"
+            },
+            {
+                "date": 741095364.2992957,
+                "amount": {
+                    "Value": 39546.58,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "date": 739073035.3475533,
+                "amount": {
+                    "Value": 9172.56,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 753761519.6835285,
+                "amount": {
+                    "type": "€",
+                    "Value": 96114.9
+                }
+            },
+            {
+                "amount": {
+                    "Value": 83251.16,
+                    "type": "€"
+                },
+                "date": 740949911.1959212,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 6708.47,
+                    "type": "€"
+                },
+                "date": 755545790.0615144,
+                "description": "Test transaction"
+            },
+            {
+                "date": 750689245.725098,
+                "amount": {
+                    "type": "€",
+                    "Value": 6359.19
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 728746072.3688791,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 27217.51,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 745008954.6583691,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 43249.48,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "Value": 3092,
+                    "type": "€"
+                },
+                "date": 728342005.469033,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 13783.34,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 730141547.9726224
+            },
+            {
+                "date": 754675537.2042484,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 99453.67
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 60234.11
+                },
+                "date": 739239737.7185057
+            },
+            {
+                "date": 751179289.145727,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 36218.51
+                }
+            },
+            {
+                "description": "Test transaction",
+                "date": 745996604.2189454,
+                "amount": {
+                    "Value": 90290.34,
+                    "type": "€"
+                }
+            },
+            {
+                "date": 752075293.0069913,
+                "amount": {
+                    "type": "€",
+                    "Value": 90562.92
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 66291.31
+                },
+                "date": 755402950.3200175,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 98410.81
+                },
+                "description": "Test transaction",
+                "date": 737737874.7477442
+            },
+            {
+                "description": "Test transaction",
+                "date": 750579959.1328107,
+                "amount": {
+                    "type": "€",
+                    "Value": 43383.18
+                }
+            },
+            {
+                "date": 743856550.9440899,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 96498.36,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 81896.42
+                },
+                "description": "Test transaction",
+                "date": 755585849.1323495
+            },
+            {
+                "date": 736902018.3948888,
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 1685.04
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 35211.53,
+                    "type": "€"
+                },
+                "date": 739063454.6384696
+            },
+            {
+                "date": 746669494.4494042,
+                "amount": {
+                    "type": "€",
+                    "Value": 39445.76
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 97409.79,
+                    "type": "€"
+                },
+                "date": 734261569.061797,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 80969.4
+                },
+                "description": "Test transaction",
+                "date": 746337089.4961045
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 58952.07
+                },
+                "date": 739321470.6779546,
+                "description": "Test transaction"
+            },
+            {
+                "date": 749306734.8529305,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 14523.85,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 69244.52,
+                    "type": "€"
+                },
+                "date": 756266816.0303067
+            },
+            {
+                "date": 727805611.4843026,
+                "amount": {
+                    "Value": 8613.05,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "date": 729012917.5400013,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 76571.16,
+                    "type": "€"
+                }
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 86271.27
+                },
+                "date": 738113300.3181866,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 70606.17,
+                    "type": "€"
+                },
+                "description": "Test transaction",
+                "date": 747208097.0342885
+            },
+            {
+                "amount": {
+                    "Value": 20299.89,
+                    "type": "€"
+                },
+                "date": 734118509.0920944,
+                "description": "Test transaction"
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "type": "€",
+                    "Value": 50832.61
+                },
+                "date": 740667153.1754799
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 86397.66
+                },
+                "description": "Test transaction",
+                "date": 756168129.7551724
+            },
+            {
+                "date": 728536363.9037963,
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 99722.35,
+                    "type": "€"
+                }
+            },
+            {
+                "description": "Test transaction",
+                "amount": {
+                    "Value": 25827.95,
+                    "type": "€"
+                },
+                "date": 752353020.4569876
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 98138.53
+                },
+                "date": 738236719.2183961,
+                "description": "Test transaction"
+            },
+            {
+                "date": 751941448.84715,
+                "amount": {
+                    "Value": 49167.7,
+                    "type": "€"
+                },
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 14218.54,
+                    "type": "€"
+                },
+                "date": 750753417.9497428,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "Value": 61574.44,
+                    "type": "€"
+                },
+                "date": 753537485.865969,
+                "description": "Test transaction"
+            },
+            {
+                "amount": {
+                    "type": "€",
+                    "Value": 31433.61
+                },
+                "date": 756234199.1578466,
+                "description": "Test transaction"
+            }
+        ]
+    }
+]

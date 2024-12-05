@@ -45,8 +45,13 @@ class MainCoordinator: Coordinator {
         navigationController.title = "Overzicht"
     }
 
-    func navigateToAgreementSettingsScreen(withModel:AgreementModel) {
-        let agreementSettingsViewController = AgreementDetailsViewController()
+    func navigateToAgreementSettingsScreen(withModel:BankAccountModel) {
+        
+        // create viewModel from received IBAN
+        
+        let viewModel:TransactionViewModel = TransactionViewModel(IBAN: withModel.accountNumber, service: JSONTransactionService())
+        
+        let agreementSettingsViewController = AgreementDetailsViewController(transactionViewModel: viewModel)
         agreementSettingsViewController.coordinator = self
         navigationController.pushViewController(
             agreementSettingsViewController, animated: true)

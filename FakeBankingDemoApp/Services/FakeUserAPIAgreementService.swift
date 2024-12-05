@@ -28,21 +28,17 @@ public class FakeUserAPIAgreementService: AgreementServiceProtocol {
         var accountGroupModels: [AccountGroupModel] = []
 
         for accountGroup in accountGroups {
-
+            
+            var accounts: [AgreementModel] = accountGroup.accounts
+            accounts.append(TotalBalanceModel(accounts: accountGroup.accounts))
+            accountGroupModels.append(AccountGroupModel(accountGroupType: accountGroup.accountGroupType, accounts: accounts))
         }
 
         return accountGroupModels
     }
 
-    public func AgreementsToJSON() -> String {
-        var Agreements = GetAgreements()
 
-        // how to go from accountgroup back to Json?
-
-        return ""
-    }
-
-    public func GetAgreements() -> [AgreementModel] {
+    private func GetAgreements() -> [AgreementModel] {
 
         var accounts: [BankAccountModel] = []
         for _ in 0..<Int.random(in: 1..<10) {
@@ -54,8 +50,7 @@ public class FakeUserAPIAgreementService: AgreementServiceProtocol {
                     accountHolderName: fakeUser.name.first, phone: "0650999252",
                     accountNumber: GenerateMockIBAN()))
         }
-        var returnValue: [AgreementModel] = accounts
-
+        let returnValue: [AgreementModel] = accounts
         return returnValue
     }
 
